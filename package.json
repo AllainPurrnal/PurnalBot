@@ -1,0 +1,23 @@
+{
+  "name": "PurnalBot",
+  "version": "1.0.0",
+  "description": "A Personalized Discord bot for the Litter Box Discord Server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AllainPurrnal/PurnalBot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AllainPurrnal/PurnalBot/issues"
+  },
+  "homepage": "https://github.com/AllainPurrnal/PurnalBot#readme",
+  "dependencies": {
+    "discord.js": "^12.2.0"
+  }
+}
