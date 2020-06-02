@@ -1,0 +1,522 @@
+{
+  "role": [
+    "ADC", "Support", "Mid", "Jungle", "Solo"
+  ],
+  "pantheon": [
+    {
+      "name": "Arthurian",
+      "gods": [
+        {
+          "name": "King Arthur",
+          "class": "Warrior"
+        },
+        {
+          "name": "Merlin",
+          "class": "Mage"
+        }
+      ]
+    },
+    {
+      "name": "Celtic",
+      "gods": [
+        {
+          "name": "Artio",
+          "class": "Guardian"
+        },
+        {
+          "name": "Cernunnos",
+          "class": "Hunter"
+        },
+        {
+          "name": "Cu Chulainn",
+          "class": "Warrior"
+        },
+        {
+          "name": "The Morrigan",
+          "class": "Mage"
+        }
+      ]
+    },
+    {
+      "name": "Chinese",
+      "gods": [
+        {
+          "name": "Ao Kuang",
+          "class": "Mage"
+        },
+        {
+          "name": "Chang'e",
+          "class": "Mage"
+        },
+        {
+          "name": "Da Ji",
+          "class": "Assassin"
+        },
+        {
+          "name": "Erlang Shen",
+          "class": "Warrior"
+        },
+        {
+          "name": "Guan Yu",
+          "class": "Warrior"
+        },
+        {
+          "name": "He Bo",
+          "class": "Mage"
+        },
+        {
+          "name": "Hou Yi",
+          "class": "Hunter"
+        },
+        {
+          "name": "Jing Wei",
+          "class":"Hunter"
+        },
+        {
+          "name": "Mulan",
+          "class": "Warrior"
+        },
+        {
+          "name": "Ne Zha",
+          "class": "Assassin"
+        },
+        {
+          "name": "Nu Wa",
+          "class": "Mage"
+        },
+        {
+          "name": "Sun Wukong",
+          "class": "Warrior"
+        },
+        {
+          "name": "Xing Tian",
+          "class": "Guardian"
+        },
+        {
+          "name": "Zhong Kui",
+          "class": "Mage"
+        }
+      ]
+    },
+    {
+      "name": "Egyptian",
+      "gods": [
+        {
+          "name": "Anhur",
+          "class": "Hunter"
+        },
+        {
+          "name": "Anubis",
+          "class": "Mage"
+        },
+        {
+          "name": "Bastet",
+          "class": "Assassin"
+        },
+        {
+          "name": "Geb",
+          "class": "Guardian"
+        },
+        {
+          "name": "Horus",
+          "class": "Warrior"
+        },
+        {
+          "name": "Isis",
+          "class": "Mage"
+        },
+        {
+          "name": "Khepri",
+          "class": "Guardian"
+        },
+        {
+          "name": "Neith",
+          "class": "Hunter"
+        },
+        {
+          "name": "Osiris",
+          "class": "Warrior"
+        },
+        {
+          "name": "Ra",
+          "class": "Mage"
+        },
+        {
+          "name": "Serqet",
+          "class": "Assassin"
+        },
+        {
+          "name": "Set",
+          "class": "Assassin"
+        },
+        {
+          "name": "Sobek",
+          "class": "Guardian"
+        },
+        {
+          "name": "Thoth",
+          "class": "Mage"
+        }
+      ]
+    },
+    {
+      "name": "Great Old Ones",
+      "gods": [
+        {
+          "name": "Cthulu",
+          "class": "Guardian"
+        }
+      ]
+    },
+    {
+      "name": "Greek",
+      "gods": [
+        {
+          "name": "Achilles",
+          "class": "Warrior"
+        },
+        {
+          "name": "Aphrodite",
+          "class": "Mage"
+        },
+        {
+          "name": "Apollo",
+          "class": "Hunter"
+        },
+        {
+          "name": "Arachne",
+          "class": "Assassin"
+        },
+        {
+          "name": "Ares",
+          "class": "Guardian"
+        },
+        {
+          "name": "Artemis",
+          "class": "Hunter"
+        },
+        {
+          "name": "Athena",
+          "class": "Guardian"
+        },
+        {
+          "name": "Cerberus",
+          "class": "Guardian"
+        },
+        {
+          "name": "Chiron",
+          "class": "Hunter"
+        },
+        {
+          "name": "Chronos",
+          "class": "Hunter"
+        },
+        {
+          "name": "Hades",
+          "class": "Guardian"
+        },
+        {
+          "name": "Hera",
+          "class": "Mage"
+        },
+        {
+          "name": "Medusa",
+          "class": "Hunter"
+        },
+        {
+          "name": "Nemesis",
+          "class": "Assassin"
+        },
+        {
+          "name": "Nike",
+          "class": "Warrior"
+        },
+        {
+          "name": "Persephone",
+          "class": "Mage"
+        },
+        {
+          "name": "Poseidon",
+          "class": "Mage"
+        },
+        {
+          "name": "Scylla",
+          "class": "Mage"
+        },
+        {
+          "name": "Thanatos",
+          "class": "Assassin"
+        },
+        {
+          "name": "Zeus",
+          "class": "Mage"
+        }
+      ]
+    },
+    {
+      "name": "Hindu",
+      "gods": [
+        {
+          "name": "Agni",
+          "class": "Mage"
+        },
+        {
+          "name": "Bakasura",
+          "class": "Mage"
+        },
+        {
+          "name": "Ganesha",
+          "class": "Guardian"
+        },
+        {
+          "name": "Kali",
+          "class": "Assassin"
+        },
+        {
+          "name": "Kumbhakarna",
+          "class": "Guardian"
+        },
+        {
+          "name": "Rama",
+          "class": "Hunter"
+        },
+        {
+          "name": "Ravana",
+          "class": "Warrior"
+        },
+        {
+          "name": "Vamana",
+          "class": "Warrior"
+        }
+      ]
+    },
+    {
+      "name": "Japanese",
+      "gods": [
+        {
+          "name": "Amaterasu",
+          "class": "Warrior"
+        },
+        {
+          "name": "Hachiman",
+          "class": "Hunter"
+        },
+        {
+          "name": "Izanami",
+          "class": "Hunter"
+        },
+        {
+          "name": "Kuzenbo",
+          "class": "Guardian"
+        },
+        {
+          "name": "Raijin",
+          "class": "Mage"
+        },
+        {
+          "name": "Susano",
+          "class": "Assassin"
+        }
+      ]
+    },
+    {
+      "name": "Mayan",
+      "gods": [
+        {
+          "name": "Ah Muzen Cab",
+          "class": "Hunter"
+        },
+        {
+          "name": "Ah Puch",
+          "class": "Assassin"
+        },
+        {
+          "name": "Awilix",
+          "class": "Assassin"
+        },
+        {
+          "name": "Cabrakan",
+          "class": "Guardian"
+        },
+        {
+          "name": "Camazotz",
+          "class": "Assassin"
+        },
+        {
+          "name": "Chaac",
+          "class": "Warrior"
+        },
+        {
+          "name": "Hun Batz",
+          "class": "Assassin"
+        },
+        {
+          "name": "Kukulkan",
+          "class": "Mage"
+        },
+        {
+          "name": "Xbalanque",
+          "class": "Hunter"
+        }
+      ]
+    },
+    {
+      "name": "Norse",
+      "gods": [
+        {
+          "name": "Fafnir",
+          "class": "Guardian"
+        },
+        {
+          "name": "Fenrir",
+          "class": "Assassin"
+        },
+        {
+          "name": "Freya",
+          "class": "Mage"
+        },
+        {
+          "name": "Heimdallr",
+          "class": "Hunter"
+        },
+        {
+          "name": "Hel",
+          "class": "Mage"
+        },
+        {
+          "name": "Jormungandr",
+          "class": "Guardian"
+        },
+        {
+          "name": "Loki",
+          "class": "Assassin"
+        },
+        {
+          "name": "Odin",
+          "class": "Warrior"
+        },
+        {
+          "name": "Ratatoskr",
+          "class": "Assassin"
+        },
+        {
+          "name": "Skadi",
+          "class": "Hunter"
+        },
+        {
+          "name": "Sol",
+          "class": "Mage"
+        },
+        {
+          "name": "Thor",
+          "class": "Assassin"
+        },
+        {
+          "name": "Tyr",
+          "class": "Warrior"
+        },
+        {
+          "name": "Ullr",
+          "class": "Hunter"
+        },
+        {
+          "name": "Ymir",
+          "class": "Guardian"
+        }
+      ]
+    },
+    {
+      "name": "Polynesian",
+      "gods": [
+        {
+          "name": "Pele",
+          "class": "Assassin"
+        }
+      ]
+    },
+    {
+      "name": "Roman",
+      "gods": [
+        {
+          "name": "Bacchus",
+          "class": "Guardian"
+        },
+        {
+          "name": "Bellona",
+          "class": "Warrior"
+        },
+        {
+          "name": "Cupid",
+          "class": "Hunter"
+        },
+        {
+          "name": "Discordia",
+          "class": "Mage"
+        },
+        {
+          "name": "Hercules",
+          "class": "Warrior"
+        },
+        {
+          "name": "Janus",
+          "class": "Mage"
+        },
+        {
+          "name": "Mercury",
+          "class": "Assassin"
+        },
+        {
+          "name": "Nox",
+          "class": "Mage"
+        },
+        {
+          "name": "Sylvanus",
+          "class": "Guardian"
+        },
+        {
+          "name": "Terra",
+          "class": "Guardian"
+        },
+        {
+          "name": "Vulcan",
+          "class": "Mage"
+        }
+      ]
+    },
+    {
+      "name": "Slavic",
+      "gods": [
+        {
+          "name": "Baba Yaga",
+          "class": "Mage"
+        },
+        {
+          "name": "Chernobog",
+          "class": "Hunter"
+        }
+      ]
+    },
+    {
+      "name": "Voodoo",
+      "gods": [
+        {
+          "name": "Baron Samedi",
+          "class": "Mage"
+        }
+      ]
+    },
+    {
+      "name": "Yoruba",
+      "gods": [
+        {
+          "name": "Olorun",
+          "class": "Mage"
+        },
+        {
+          "name": "Yemoja",
+          "class": "Guardian"
+        }
+      ]
+    }
+  ]
+}
