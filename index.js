@@ -37,11 +37,12 @@ client.on('message', message => {
 	const args = message.content.slice(prefix.length).split(/ +/);
 	const commandName = args.shift().toLowerCase();
 
-  // If a command doesn't exist, exit early
-  	const command = client.commands.get(commandName) || client.commands.find(cmd => cmd.aliases && cmd.aliases.includes(commandName));
+  const command = client.commands.get(commandName) || client.commands.find(cmd => cmd.aliases && cmd.aliases.includes(commandName));
   
-  	if (!command) return;
+  // If a command doesn't exist, exit early
+  if (!command) return;
 
+  // Guild Only commands will return an error when PM'd a command
   if (command.guildOnly && message.channel.type !== 'text') {
     return message.reply('I can\'t execute that command inside DMs!');
   }
@@ -56,25 +57,23 @@ client.on('message', message => {
     return message.channel.send(reply);
   }
 
+  // Command Cooldown to prevent spam of resource intensive commands
   if (!cooldowns.has(command.name)) {
     cooldowns.set(command.name, new Discord.Collection());
   }
   
-  // const now = Date.now();
-  // const timestamps = cooldowns.get(command.name);
-  // const cooldownAmount = (command.cooldown || 3) * 1000;
-
-  // if (timestamps.has(message.author.id)) {
-  //   const expirationTime = timestamps.get(message.author.id) + cooldownAmount;
+  const now = Date.now();
+  const timestamps = cooldowns.get(command.name);
+  const cooldownAmount = (command.cooldown || 3) * 1000;
   
-  //   if (now < expirationTime) {
-  //     const timeLeft = (expirationTime - now) / 1000;
-  //     return message.reply(`please wait ${timeLeft.toFixed(1)} more second(s) before reusing the \`${command.name}\` command.`);
-  //   }
-  // }
-
-  // timestamps.set(message.author.id, now);
-  // setTimeout(() => timestamps.delete(message.author.id), cooldownAmount);
+  if (timestamps.has(message.author.id)) {
+    const expirationTime = timestamps.get(message.author.id) + cooldownAmount;
+  
+    if (now < expirationTime) {
+      const timeLeft = (expirationTime - now) / 1000;
+      return message.reply(`please wait ${timeLeft.toFixed(1)} more second(s) before reusing the \`${command.name}\` command.`);
+    }
+  }
 
   // If there is, .get() the command and call it's .execute() method while passing in your message and argsvariables as method arguments
   try {
