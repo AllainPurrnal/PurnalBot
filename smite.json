@@ -7,15 +7,15 @@
       "name": "Arthurian",
       "gods": [
         {
-          "pantheon": "Arthurian",
           "name": "King Arthur",
+          "pantheon": "Arthurian",
           "title": "Wielder of Excalibur",
           "class": "Warrior",
           "icon": "https://i.imgur.com/NeMwbnN.png"
         },
         {
-          "pantheon": "Arthurian",
           "name": "Merlin",
+          "pantheon": "Arthurian",
           "title":"the Master Wizard",
           "class": "Mage",
           "icon": "https://i.imgur.com/Ti5c3cy.png"
@@ -26,29 +26,29 @@
       "name": "Celtic",
       "gods": [
         {
-          "pantheon": "Celtic",
           "name": "Artio",
+          "pantheon": "Celtic",
           "title": "The Bear Goddess",
           "class": "Guardian",
           "icon": "https://i.imgur.com/0pTyS9u.png"
         },
         {
-          "pantheon": "Celtic",
           "name": "Cernunnos",
+          "pantheon": "Celtic",
           "title": "The Horned God",
           "class": "Hunter",
           "icon": "https://i.imgur.com/kr3tfVc.png"
         },
         {
-          "pantheon": "Celtic",
           "name": "Cu Chulainn",
+          "pantheon": "Celtic",
           "title": "The Hound of Ulster",
           "class": "Warrior",
           "icon": "https://i.imgur.com/WKQyWpH.png"
         },
         {
-          "pantheon": "Celtic",
           "name": "The Morrigan",
+          "pantheon": "Celtic",
           "title": "Phantom Queen",
           "class": "Mage",
           "icon": "https://i.imgur.com/hceJRCc.png"
@@ -59,22 +59,22 @@
       "name": "Chinese",
       "gods": [
         {
-          "pantheon": "Chinese",
           "name": "Ao Kuang",
+          "pantheon": "Chinese",
           "title": "Dragon King of the Eastern Sea",
           "class": "Mage",
           "icon": "https://i.imgur.com/6qXDb89.png"
         },
         {
-          "pantheon": "Chinese",
           "name": "Chang'e",
+          "pantheon": "Chinese",
           "title": "Faerie of the Moon",
           "class": "Mage",
           "icon": "https://i.imgur.com/AoJUQMM.png"
         },
         {
-          "pantheon": "Chinese",
           "name": "Da Ji",
+          "pantheon": "Chinese",
           "title": "The Nine-Tailed Fox",
           "class": "Assassin",
           "icon": "https://i.imgur.com/kwrOQsQ.png"
@@ -87,71 +87,71 @@
           "icon": "https://i.imgur.com/zUp4GVc.png"
         },
         {
-          "pantheon": "Chinese",
           "name": "Guan Yu",
+          "pantheon": "Chinese",
           "title": "Saint of War",
           "class": "Warrior",
           "icon": "https://i.imgur.com/NWabiBT.png"
         },
         {
-          "pantheon": "Chinese",
           "name": "He Bo",
+          "pantheon": "Chinese",
           "title": "God of the Yellow River",
           "class": "Mage",
           "icon": "https://i.imgur.com/YRozDbQ.png"
         },
         {
-          "pantheon": "Chinese",
           "name": "Hou Yi",
+          "pantheon": "Chinese",
           "title": "Defender of the Earth",
           "class": "Hunter",
           "icon": "https://i.imgur.com/yhM0jTF.png"
         },
         {
-          "pantheon": "Chinese",
           "name": "Jing Wei",
+          "pantheon": "Chinese",
           "title": "The Oathkeeper",
           "class":"Hunter",
           "icon": "https://i.imgur.com/3dsYwkm.png"
         },
         {
-          "pantheon": "Chinese",
           "name": "Mulan",
+          "pantheon": "Chinese",
           "title": "The Ascendant Warrior",
           "class": "Warrior",
           "icon": "https://i.imgur.com/lBxf8te.png"
         },
         {
-          "pantheon": "Chinese",
           "name": "Ne Zha",
+          "pantheon": "Chinese",
           "title": "The Third Lotus Prince",
           "class": "Assassin",
           "icon": "https://i.imgur.com/G7ulLzf.png"
         },
         {
-          "pantheon": "Chinese",
           "name": "Nu Wa",
+          "pantheon": "Chinese",
           "title": "Guardian of Heaven",
           "class": "Mage",
           "icon": "https://i.imgur.com/lprQuku.png"
         },
         {
-          "pantheon": "Chinese",
           "name": "Sun Wukong",
+          "pantheon": "Chinese",
           "title": "The Monkey King",
           "class": "Warrior",
           "icon": "https://i.imgur.com/MnS0yyH.png"
         },
         {
-          "pantheon": "Chinese",
           "name": "Xing Tian",
+          "pantheon": "Chinese",
           "title": "The Relentless",
           "class": "Guardian",
           "icon": "https://i.imgur.com/1SXYbL1.png"
         },
         {
-          "pantheon": "Chinese",
           "name": "Zhong Kui",
+          "pantheon": "Chinese",
           "title": "The Demon Queller",
           "class": "Mage",
           "icon": "https://i.imgur.com/tTvakqU.png"
@@ -162,57 +162,57 @@
       "name": "Egyptian",
       "gods": [
         {
-          "pantheon": "Egyptian",
           "name": "Anhur",
+          "pantheon": "Egyptian",
           "title": "Slayer of Enemies",
           "class": "Hunter",
           "icon": "https://i.imgur.com/6LeTN9w.png"
         },
         {
-          "pantheon": "Egyptian",
           "name": "Anubis",
+          "pantheon": "Egyptian",
           "title": "God of the Dead",
           "class": "Mage",
           "icon": "https://i.imgur.com/7A9mwZt.png"
         },
         {
-          "pantheon": "Egyptian",
           "name": "Bastet",
+          "pantheon": "Egyptian",
           "title": "Goddess of Cats",
           "class": "Assassin",
           "icon": "https://i.imgur.com/81SSZ2Y.png"
         },
         {
-          "pantheon": "Egyptian",
           "name": "Geb",
+          "pantheon": "Egyptian",
           "title": "God of Earth",
           "class": "Guardian",
           "icon": "https://i.imgur.com/OODEu55.png"
         },
         {
-          "pantheon": "Egyptian",
           "name": "Horus",
+          "pantheon": "Egyptian",
           "title": "The Rightful Heir",
           "class": "Warrior",
           "icon": "https://i.imgur.com/zgCDnWD.png"
         },
         {
-          "pantheon": "Egyptian",
           "name": "Isis",
+          "pantheon": "Egyptian",
           "title": "Goddess of Magic",
           "class": "Mage",
           "icon": "https://i.imgur.com/QAndJOU.png"
         },
         {
-          "pantheon": "Egyptian",
           "name": "Khepri",
+          "pantheon": "Egyptian",
           "title": "The Dawn Bringer",
           "class": "Guardian",
           "icon": "https://i.imgur.com/1k3VDFQ.png"
         },
         {
-          "pantheon": "Egyptian",
           "name": "Neith",
+          "pantheon": "Egyptian",
           "title": "Weaver of Fate",
           "class": "Hunter",
           "icon": "https://i.imgur.com/xfFVyqD.png"
@@ -225,36 +225,36 @@
           "icon": "https://i.imgur.com/aWDi2ZF.png"
         },
         {
-          "pantheon": "Egyptian",
           "name": "Ra",
+          "pantheon": "Egyptian",
           "title": "Sun God",
           "class": "Mage",
           "icon": "https://i.imgur.com/0bblIAP.png"
         },
         {
-          "pantheon": "Egyptian",
           "name": "Serqet",
+          "pantheon": "Egyptian",
           "title": "Goddess of Venom",
           "class": "Assassin",
           "icon": "https://i.imgur.com/nlkaVIF.png"
         },
         {
-          "pantheon": "Egyptian",
           "name": "Set",
+          "pantheon": "Egyptian",
           "title": "The Usurper",
           "class": "Assassin",
           "icon": "https://i.imgur.com/nmrlWKC.png"
         },
         {
-          "pantheon": "Egyptian",
           "name": "Sobek",
+          "pantheon": "Egyptian",
           "title": "God of the Nile",
           "class": "Guardian",
           "icon": "https://i.imgur.com/ryRW85E.png"
         },
         {
-          "pantheon": "Egyptian",
           "name": "Thoth",
+          "pantheon": "Egyptian",
           "title": "Arbiter of the Damned",
           "class": "Mage",
           "icon": "https://i.imgur.com/vVQ1fxX.png"
@@ -265,8 +265,8 @@
       "name": "Great Old Ones",
       "gods": [
         {
-          "pantheon": "Great Old Ones",
           "name": "Cthulu",
+          "pantheon": "Great Old Ones",
           "title": "The Great Dreamer",
           "class": "Guardian",
           "icon": "https://i.imgur.com/5BPv9zm.png"
@@ -277,141 +277,141 @@
       "name": "Greek",
       "gods": [
         {
-          "pantheon": "Greek",
           "name": "Achilles",
+          "pantheon": "Greek",
           "title": "Hero of the Trojan War",
           "class": "Warrior",
           "icon": "https://i.imgur.com/ffvITSW.png"
         },
         {
-          "pantheon": "Greek",
           "name": "Aphrodite",
+          "pantheon": "Greek",
           "title": "Goddess of Beauty",
           "class": "Mage",
           "icon": "https://i.imgur.com/9B2XofY.png"
         },
         {
-          "pantheon": "Greek",
           "name": "Apollo",
+          "pantheon": "Greek",
           "title": "God of Music",
           "class": "Hunter",
           "icon": "https://i.imgur.com/5CyJZmm.png"
         },
         {
-          "pantheon": "Greek",
           "name": "Arachne",
+          "pantheon": "Greek",
           "title": "the Weaver",
           "class": "Assassin",
           "icon": "https://i.imgur.com/2NyPJaV.png"
         },
         {
-          "pantheon": "Greek",
           "name": "Ares",
+          "pantheon": "Greek",
           "title": "God of War",
           "class": "Guardian",
           "icon": "https://i.imgur.com/1TUbwOz.png"
         },
         {
-          "pantheon": "Greek",
           "name": "Artemis",
+          "pantheon": "Greek",
           "title": "Goddess of the Hunt",
           "class": "Hunter",
           "icon": "https://i.imgur.com/xD4wPeU.png"
         },
         {
-          "pantheon": "Greek",
           "name": "Athena",
+          "pantheon": "Greek",
           "title": "Goddess of Wisdom",
           "class": "Guardian",
           "icon": "https://i.imgur.com/u0Gty97.png"
         },
         {
-          "pantheon": "Greek",
           "name": "Cerberus",
+          "pantheon": "Greek",
           "title": "Warden of the Underworld",
           "class": "Guardian",
           "icon": "https://i.imgur.com/E9BHnBQ.png"
         },
         {
-          "pantheon": "Greek",
           "name": "Chiron",
+          "pantheon": "Greek",
           "title": "The Great Teacher",
           "class": "Hunter",
           "icon": "https://i.imgur.com/vqQ6vBf.png"
         },
         {
-          "pantheon": "Greek",
           "name": "Chronos",
+          "pantheon": "Greek",
           "title": "Keeper of Time",
-          "class": "Hunter",
+          "class": "Mage",
           "icon": "https://i.imgur.com/dEAyotR.png"
         },
         {
-          "pantheon": "Greek",
           "name": "Hades",
+          "pantheon": "Greek",
           "title": "King of the Underworld",
           "class": "Guardian",
           "icon": "https://i.imgur.com/1eIg7Wf.png"
         },
         {
-          "pantheon": "Greek",
           "name": "Hera",
+          "pantheon": "Greek",
           "title": "Queen of the Gods",
           "class": "Mage",
           "icon": "https://i.imgur.com/9lXAbyy.png"
         },
         {
-          "pantheon": "Greek",
           "name": "Medusa",
+          "pantheon": "Greek",
           "title": "The Gorgon",
           "class": "Hunter",
           "icon": "https://i.imgur.com/EXAiGIO.png"
         },
         {
-          "pantheon": "Greek",
           "name": "Nemesis",
+          "pantheon": "Greek",
           "title": "Goddess of Vengeance",
           "class": "Assassin",
           "icon": "https://i.imgur.com/kQk7GPn.png"
         },
         {
-          "pantheon": "Greek",
           "name": "Nike",
+          "pantheon": "Greek",
           "title": "Goddess of Victory",
           "class": "Warrior",
           "icon": "https://i.imgur.com/kH531pj.png"
         },
         {
-          "pantheon": "Greek",
           "name": "Persephone",
+          "pantheon": "Greek",
           "title": "Queen of the Underworld",
           "class": "Mage",
           "icon": "https://i.imgur.com/PzEe7kZ.png"
         },
         {
-          "pantheon": "Greek",
           "name": "Poseidon",
+          "pantheon": "Greek",
           "title": "God of the Oceans",
           "class": "Mage",
           "icon": "https://i.imgur.com/7vVmwdc.png"
         },
         {
-          "pantheon": "Greek",
           "name": "Scylla",
+          "pantheon": "Greek",
           "title": "Horror of the Deep",
           "class": "Mage",
           "icon": "https://i.imgur.com/eM00pC0.png"
         },
         {
-          "pantheon": "Greek",
           "name": "Thanatos",
+          "pantheon": "Greek",
           "title": "Hand of Death",
           "class": "Assassin",
           "icon": "https://i.imgur.com/u0YKLVM.png"
         },
         {
-          "pantheon": "Greek",
           "name": "Zeus",
+          "pantheon": "Greek",
           "title": "God of the Sky",
           "class": "Mage",
           "icon": "https://i.imgur.com/7AQysPJ.png"
@@ -422,57 +422,57 @@
       "name": "Hindu",
       "gods": [
         {
-          "pantheon": "Hindu",
           "name": "Agni",
+          "pantheon": "Hindu",
           "title": "God of Fire",
           "class": "Mage",
           "icon": "https://i.imgur.com/4JVO0GJ.png"
         },
         {
-          "pantheon": "Hindu",
           "name": "Bakasura",
+          "pantheon": "Hindu",
           "title": "The Great Devourer",
           "class": "Mage",
           "icon": "https://i.imgur.com/Rd7LGoC.png"
         },
         {
-          "pantheon": "Hindu",
           "name": "Ganesha",
+          "pantheon": "Hindu",
           "title": "God of Success",
           "class": "Guardian",
           "icon": "https://i.imgur.com/BVvBTKC.png"
         },
         {
-          "pantheon": "Hindu",
           "name": "Kali",
+          "pantheon": "Hindu",
           "title": "Goddess of Destruction",
           "class": "Assassin",
           "icon": "https://i.imgur.com/J5PGD56.png"
         },
         {
-          "pantheon": "Hindu",
           "name": "Kumbhakarna",
+          "pantheon": "Hindu",
           "title": "The Sleeping Giant",
           "class": "Guardian",
           "icon": "https://i.imgur.com/UNTGPIR.png"
         },
         {
-          "pantheon": "Hindu",
           "name": "Rama",
+          "pantheon": "Hindu",
           "title": "Seventh Avatar of Vishnu",
           "class": "Hunter",
           "icon": "https://i.imgur.com/CoINzyb.png"
         },
         {
-          "pantheon": "Hindu",
           "name": "Ravana",
+          "pantheon": "Hindu",
           "title": "Demon King of Lanka",
           "class": "Warrior",
           "icon": "https://i.imgur.com/U85zhyY.png"
         },
         {
-          "pantheon": "Hindu",
           "name": "Vamana",
+          "pantheon": "Hindu",
           "title": "Fifth Avatar of Vishnu",
           "class": "Warrior",
           "icon": "https://i.imgur.com/WsJo3vg.png"
@@ -483,43 +483,43 @@
       "name": "Japanese",
       "gods": [
         {
-          "pantheon": "Japanese",
           "name": "Amaterasu",
+          "pantheon": "Japanese",
           "title": "The Shining Light",
           "class": "Warrior",
           "icon": "https://i.imgur.com/0UG7KWC.png"
         },
         {
-          "pantheon": "Japanese",
           "name": "Hachiman",
+          "pantheon": "Japanese",
           "title": "Lord of the Eight",
           "class": "Hunter",
           "icon": "https://i.imgur.com/9ytRj2H.png"
         },
         {
-          "pantheon": "Japanese",
           "name": "Izanami",
+          "pantheon": "Japanese",
           "title": "Matron of the Dead",
           "class": "Hunter",
           "icon": "https://i.imgur.com/vD8T4ar.png"
         },
         {
-          "pantheon": "Japanese",
           "name": "Kuzenbo",
+          "pantheon": "Japanese",
           "title": "King Kappa",
           "class": "Guardian",
           "icon": "https://i.imgur.com/GQNtGG1.png"
         },
         {
-          "pantheon": "Japanese",
           "name": "Raijin",
+          "pantheon": "Japanese",
           "title": "Master of Thunder",
           "class": "Mage",
           "icon": "https://i.imgur.com/u5oatHQ.png"
         },
         {
-          "pantheon": "Japanese",
           "name": "Susano",
+          "pantheon": "Japanese",
           "title": "God of the Summer Storm",
           "class": "Assassin",
           "icon": "https://i.imgur.com/iYuL6vR.png"
@@ -530,64 +530,64 @@
       "name": "Mayan",
       "gods": [
         {
-          "pantheon": "Mayan",
           "name": "Ah Muzen Cab",
+          "pantheon": "Mayan",
           "title": "God of Bees",
           "class": "Hunter",
           "icon": "https://i.imgur.com/DcAI91G.png"
         },
         {
-          "pantheon": "Mayan",
           "name": "Ah Puch",
+          "pantheon": "Mayan",
           "title": "Horrific God of Decay",
           "class": "Assassin",
           "icon": "https://i.imgur.com/3qcuLVH.png"
         },
         {
-          "pantheon": "Mayan",
           "name": "Awilix",
+          "pantheon": "Mayan",
           "title": "Goddess of the Moon",
           "class": "Assassin",
           "icon": "https://i.imgur.com/eOv1HTc.png"
         },
         {
-          "pantheon": "Mayan",
           "name": "Cabrakan",
+          "pantheon": "Mayan",
           "title": "Destroyer of Mountains",
           "class": "Guardian",
           "icon": "https://i.imgur.com/2o08nS8.png"
         },
         {
-          "pantheon": "Mayan",
           "name": "Camazotz",
+          "pantheon": "Mayan",
           "title": "Deadly God of Bats",
           "class": "Assassin",
           "icon": "https://i.imgur.com/jbHOxz7.png"
         },
         {
-          "pantheon": "Mayan",
           "name": "Chaac",
+          "pantheon": "Mayan",
           "title": "God of Rain",
           "class": "Warrior",
           "icon": "https://i.imgur.com/V3LbrFK.png"
         },
         {
-          "pantheon": "Mayan",
           "name": "Hun Batz",
+          "pantheon": "Mayan",
           "title": "The Howler Monkey God",
           "class": "Assassin",
           "icon": "https://i.imgur.com/bgdzs8X.png"
         },
         {
-          "pantheon": "Mayan",
           "name": "Kukulkan",
+          "pantheon": "Mayan",
           "title": "Serpent of the Nine Winds",
           "class": "Mage",
           "icon": "https://i.imgur.com/sFVaFGS.png"
         },
         {
-          "pantheon": "Mayan",
           "name": "Xbalanque",
+          "pantheon": "Mayan",
           "title": "Hidden Jaguar Sun",
           "class": "Hunter",
           "icon": "https://i.imgur.com/yxSvxTZ.png"
@@ -598,106 +598,106 @@
       "name": "Norse",
       "gods": [
         {
-          "pantheon": "Norse",
           "name": "Fafnir",
+          "pantheon": "Norse",
           "title": "Lord of Glittering Gold",
           "class": "Guardian",
           "icon": "https://i.imgur.com/WrlcgQc.png"
         },
         {
-          "pantheon": "Norse",
           "name": "Fenrir",
+          "pantheon": "Norse",
           "title": "The Unbound",
           "class": "Assassin",
           "icon": "https://i.imgur.com/epm7bQj.png"
         },
         {
-          "pantheon": "Norse",
           "name": "Freya",
+          "pantheon": "Norse",
           "title": "Queen of the Valkyries",
           "class": "Mage",
           "icon": "https://i.imgur.com/tAo0fOk.png"
         },
         {
-          "pantheon": "Norse",
           "name": "Heimdallr",
+          "pantheon": "Norse",
           "title": "The Vigilant",
           "class": "Hunter",
           "icon": "https://i.imgur.com/1xQYaJC.png"
         },
         {
-          "pantheon": "Norse",
           "name": "Hel",
+          "pantheon": "Norse",
           "title": "Goddess of the Underworld",
           "class": "Mage",
           "icon": "https://i.imgur.com/ulEblHc.png"
         },
         {
-          "pantheon": "Norse",
           "name": "Jormungandr",
+          "pantheon": "Norse",
           "title": "The World Serpent",
           "class": "Guardian",
           "icon": "https://i.imgur.com/wv3LrQg.png"
         },
         {
-          "pantheon": "Norse",
           "name": "Loki",
+          "pantheon": "Norse",
           "title": "The Trickster God",
           "class": "Assassin",
           "icon": "https://i.imgur.com/HFJ1Ks8.png"
         },
         {
-          "pantheon": "Norse",
           "name": "Odin",
+          "pantheon": "Norse",
           "title": "The Allfather",
           "class": "Warrior",
           "icon": "https://i.imgur.com/SZXoMaQ.png"
         },
         {
-          "pantheon": "Norse",
           "name": "Ratatoskr",
+          "pantheon": "Norse",
           "title": "The Sly Messenger",
           "class": "Assassin",
           "icon": "https://i.imgur.com/U6p3qCR.png"
         },
         {
-          "pantheon": "Norse",
           "name": "Skadi",
+          "pantheon": "Norse",
           "title": "Goddess of Winter",
           "class": "Hunter",
           "icon": "https://i.imgur.com/QnCFOuk.png"
         },
         {
-          "pantheon": "Norse",
           "name": "Sol",
+          "pantheon": "Norse",
           "title": "Goddess of the Sun",
           "class": "Mage",
           "icon": "https://i.imgur.com/QKkOE1t.png"
         },
         {
-          "pantheon": "Norse",
           "name": "Thor",
+          "pantheon": "Norse",
           "title": "God of Thunder",
           "class": "Assassin",
           "icon": "https://i.imgur.com/VOeJFyk.png"
         },
         {
-          "pantheon": "Norse",
           "name": "Tyr",
+          "pantheon": "Norse",
           "title": "The Lawgiver",
           "class": "Warrior",
           "icon": "https://i.imgur.com/kTJSEnX.png"
         },
         {
-          "pantheon": "Norse",
           "name": "Ullr",
+          "pantheon": "Norse",
           "title": "The Glorious One",
           "class": "Hunter",
           "icon": "https://i.imgur.com/T8t79DY.png"
         },
         {
-          "pantheon": "Norse",
           "name": "Ymir",
+          "pantheon": "Norse",
           "title": "Father of the Frost Giants",
           "class": "Guardian",
           "icon": "https://i.imgur.com/mZIrEiq.png"
@@ -708,8 +708,8 @@
       "name": "Polynesian",
       "gods": [
         {
-          "pantheon": "Polynesian",
           "name": "Pele",
+          "pantheon": "Polynesian",
           "title": "Goddess of Volcanoes",
           "class": "Assassin",
           "icon": "https://i.imgur.com/FrkUXHN.png"
@@ -720,78 +720,78 @@
       "name": "Roman",
       "gods": [
         {
-          "pantheon": "Roman",
           "name": "Bacchus",
+          "pantheon": "Roman",
           "title": "God of Wine",
           "class": "Guardian",
           "icon": "https://i.imgur.com/EQpQ0Ih.png"
         },
         {
-          "pantheon": "Roman",
           "name": "Bellona",
+          "pantheon": "Roman",
           "title": "Goddess of War",
           "class": "Warrior",
           "icon": "https://i.imgur.com/J5844wo.png"
         },
         {
-          "pantheon": "Roman",
           "name": "Cupid",
+          "pantheon": "Roman",
           "title": "God of Love",
           "class": "Hunter",
           "icon": "https://i.imgur.com/Zx3tudd.png"
         },
         {
-          "pantheon": "Roman",
           "name": "Discordia",
+          "pantheon": "Roman",
           "title": "Goddess of Strife",
           "class": "Mage",
           "icon": "https://i.imgur.com/iadiZ1b.png"
         },
         {
-          "pantheon": "Roman",
           "name": "Hercules",
+          "pantheon": "Roman",
           "title": "Champion of Rome",
           "class": "Warrior",
           "icon": "https://i.imgur.com/AMaCsAp.png"
         },
         {
-          "pantheon": "Roman",
           "name": "Janus",
+          "pantheon": "Roman",
           "title": "God of Portals and Transitions",
           "class": "Mage",
           "icon": "https://i.imgur.com/qvQQIR7.png"
         },
         {
-          "pantheon": "Roman",
           "name": "Mercury",
+          "pantheon": "Roman",
           "title": "Messenger of the Gods",
           "class": "Assassin",
           "icon": "https://i.imgur.com/iyd7GN6.png"
         },
         {
-          "pantheon": "Roman",
           "name": "Nox",
+          "pantheon": "Roman",
           "title": "Goddess of Night",
           "class": "Mage",
           "icon": "https://i.imgur.com/ioB1Xmv.png"
         },
         {
-          "pantheon": "Roman",
           "name": "Sylvanus",
+          "pantheon": "Roman",
           "title": "Keeper of the Wild",
           "class": "Guardian",
           "icon": "https://i.imgur.com/yaAKt9R.png"
         },
         {
-          "pantheon": "Roman",
           "name": "Terra",
+          "pantheon": "Roman",
           "title": "The Earth Mother",
           "class": "Guardian",
           "icon": "https://i.imgur.com/M9Vsvcb.png"
         },
         {
-          "pantheon": "Roman",
           "name": "Vulcan",
+          "pantheon": "Roman",
           "title": "Smith of the Gods",
           "class": "Mage",
           "icon": "https://i.imgur.com/ymAhSr9.png"
@@ -802,15 +802,15 @@
       "name": "Slavic",
       "gods": [
         {
-          "pantheon": "Slavic",
           "name": "Baba Yaga",
+          "pantheon": "Slavic",
           "title": "Witch of the Woods",
           "class": "Mage",
           "icon": "https://i.imgur.com/UsU2Jvw.png"
         },
         {
-          "pantheon": "Slavic",
           "name": "Chernobog",
+          "pantheon": "Slavic",
           "title": "Lord of Darkness",
           "class": "Hunter",
           "icon": "https://i.imgur.com/mAZeMeh.png"
@@ -821,8 +821,8 @@
       "name": "Voodoo",
       "gods": [
         {
-          "pantheon": "Voodoo",
           "name": "Baron Samedi",
+          "pantheon": "Voodoo",
           "title": "God of Life and Death",
           "class": "Mage",
           "icon": "https://i.imgur.com/uAQlBAA.png"
@@ -833,15 +833,15 @@
       "name": "Yoruba",
       "gods": [
         {
-          "pantheon": "Yoruba",
           "name": "Olorun",
+          "pantheon": "Yoruba",
           "title": "Ruler of the Heavens",
           "class": "Mage",
           "icon": "https://i.imgur.com/Y1Mqs1y.png"
         },
         {
-          "pantheon": "Yoruba",
           "name": "Yemoja",
+          "pantheon": "Yoruba",
           "title": "Goddess of Rivers",
           "class": "Guardian",
           "icon": "https://i.imgur.com/A1Eqcbx.png"
