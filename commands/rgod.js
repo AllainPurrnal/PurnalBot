@@ -109,7 +109,7 @@ module.exports = {
       case "egyptian":
       case "great":
       case "greek":
-      case "hinder":
+      case "hindu":
       case "japanese":
       case "mayan":
       case "norse":
