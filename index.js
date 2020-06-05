@@ -1,13 +1,13 @@
 const fs = require('fs');
-const Discord = require('discord.js');
+const { Client, Collection } = require('discord.js');
 require('dotenv').config();
 
 let prefix = process.env.PREFIX;
 let token = process.env.TOKEN;
 
-const client = new Discord.Client();
-client.commands = new Discord.Collection();
-const cooldowns = new Discord.Collection();
+const client = new Client();
+client.commands = new Collection();
+const cooldowns = new Collection();
 
 const commandFiles = fs.readdirSync('./commands').filter(file => file.endsWith('.js'));
 
@@ -60,23 +60,26 @@ client.on('message', message => {
     return message.channel.send(reply);
   }
 
-  // Command Cooldown to prevent spam of resource intensive commands
+  // 
   if (!cooldowns.has(command.name)) {
-    cooldowns.set(command.name, new Discord.Collection());
+    cooldowns.set(command.name, new Collection());
   }
-  
+
   const now = Date.now();
   const timestamps = cooldowns.get(command.name);
-  const cooldownAmount = (command.cooldown || 3) * 1000;
-  
+  const cooldownAmount = (command.cooldown || 1) * 1000;
+
   if (timestamps.has(message.author.id)) {
     const expirationTime = timestamps.get(message.author.id) + cooldownAmount;
   
     if (now < expirationTime) {
       const timeLeft = (expirationTime - now) / 1000;
-      return message.reply(`please wait ${timeLeft.toFixed(1)} more second(s) before reusing the \`${command.name}\` command.`);
+      return message.reply(`please wait ${timeLeft.toFixed(1)} more second(s) before reusing the \`${prefix}${command.name}\` command.`);
     }
   }
+
+  timestamps.set(message.author.id, now);
+  setTimeout(() => timestamps.delete(message.author.id), cooldownAmount);
 
   // If there is, .get() the command and call it's .execute() method while passing in your message and argsvariables as method arguments
   try {

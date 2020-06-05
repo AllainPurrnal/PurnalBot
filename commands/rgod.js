@@ -102,6 +102,8 @@ module.exports = {
     if (!args.length) choice = args
     else choice = args[0].toLowerCase();
 
+    // console.log(message.author.username)
+
     switch (choice) {
       case "arthurian":
       case "celtic":
