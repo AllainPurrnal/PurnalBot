@@ -112,8 +112,6 @@ const randomRole = (message) => {
   let rand = Math.floor(Math.random() * (role.length))
   let rRole = role[rand]
 
-  // console.log(rRole)
-
   buildRoleCard(message, rRole)
 };
 
