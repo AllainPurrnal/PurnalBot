@@ -60,7 +60,7 @@ client.on('message', message => {
     return message.channel.send(reply);
   }
 
-  // 
+  // To keep track of command cooldowns and when to allow a user to enter the command again
   if (!cooldowns.has(command.name)) {
     cooldowns.set(command.name, new Collection());
   }

@@ -1,6 +1,11 @@
 {
   "role": [
-    "ADC", "Support", "Mid", "Jungle", "Solo"
+    { "name": "ADC", "icon": "https://gamepedia.cursecdn.com/smite_gamepedia/3/30/NewUI_Role_Carry.png?version=128ba7d2057891c8930a1d01287bf599", "description": "Early game baby, late game savage. Unless you get ganked." },
+    { "name": "Support", "icon": "https://gamepedia.cursecdn.com/smite_gamepedia/9/96/NewUI_Role_Support.png?version=1a8fd0ec31faaf442d9b1a4482b64d1e", "description": "The Unsung heroes of the Team, even if your Jungler says you're shit" },
+    { "name": "Mid", "icon": "https://gamepedia.cursecdn.com/smite_gamepedia/5/52/NewUI_Role_Mid.png?version=33be56ce820ac73fb6315fc1cffafd17", "description": "Your go to catch phrase is: \"Bro, where's my jungler?!\"" },
+    { "name": "Jungle", "icon": "https://gamepedia.cursecdn.com/smite_gamepedia/8/85/NewUI_Role_Jungle.png?version=7c2b48292ebc83110a818f9385183241", "description": "When your team is losing, everyone is shit. When your team is winning, it's because you're a beast" },
+    { "name": "Solo", "icon": "https://gamepedia.cursecdn.com/smite_gamepedia/f/ff/NewUI_Role_Solo.png?version=a17e77a62aa1faf4784ab8bd7c916e3d", "description": "You're oblivious of other lanes, slapping the other solo." },
+    { "name": "Fill", "icon": "https://gamepedia.cursecdn.com/smite_gamepedia/f/f0/NewUI_Role_Fill.png?version=68cfc31680d436f16d99a19305794276", "description": "Fill" }
   ],
   "pantheon": [
     {
@@ -11,14 +16,16 @@
           "pantheon": "Arthurian",
           "title": "Wielder of Excalibur",
           "class": "Warrior",
-          "icon": "https://i.imgur.com/NeMwbnN.png"
+          "icon": "https://i.imgur.com/NeMwbnN.png",
+          "icon2": "https://gamepedia.cursecdn.com/smite_gamepedia/8/8a/T_KingArthur_Default_Icon.png?version=0f81dce8eb98fb5c7c29c8ce8dfa72d5"
         },
         {
           "name": "Merlin",
           "pantheon": "Arthurian",
           "title":"the Master Wizard",
           "class": "Mage",
-          "icon": "https://i.imgur.com/Ti5c3cy.png"
+          "icon": "https://i.imgur.com/Ti5c3cy.png",
+          "icon2": "https://gamepedia.cursecdn.com/smite_gamepedia/0/0b/T_Merlin_Default_Icon.png?version=bb26df876aaec916aea95b2e09145f00"
         }
       ]
     },
@@ -30,28 +37,32 @@
           "pantheon": "Celtic",
           "title": "The Bear Goddess",
           "class": "Guardian",
-          "icon": "https://i.imgur.com/0pTyS9u.png"
+          "icon": "https://i.imgur.com/0pTyS9u.png",
+          "icon2": "https://gamepedia.cursecdn.com/smite_gamepedia/9/9f/T_Artio_Default_Icon.png?version=13a018b3a965134a461403df2bb7f366"
         },
         {
           "name": "Cernunnos",
           "pantheon": "Celtic",
           "title": "The Horned God",
           "class": "Hunter",
-          "icon": "https://i.imgur.com/kr3tfVc.png"
+          "icon": "https://i.imgur.com/kr3tfVc.png",
+          "icon2": "https://gamepedia.cursecdn.com/smite_gamepedia/5/5f/T_Cernunnos_Default_Icon.png?version=b5d3fcc78f91f7d973d4da343c886cd0"
         },
         {
           "name": "Cu Chulainn",
           "pantheon": "Celtic",
           "title": "The Hound of Ulster",
           "class": "Warrior",
-          "icon": "https://i.imgur.com/WKQyWpH.png"
+          "icon": "https://i.imgur.com/WKQyWpH.png",
+          "icon2": "https://gamepedia.cursecdn.com/smite_gamepedia/3/3d/T_CuChulainn_Default_Icon.png?version=50f42bc7ce58b18faa5473c26d8d0e06"
         },
         {
           "name": "The Morrigan",
           "pantheon": "Celtic",
           "title": "Phantom Queen",
           "class": "Mage",
-          "icon": "https://i.imgur.com/hceJRCc.png"
+          "icon": "https://i.imgur.com/hceJRCc.png",
+          "icon2": "https://gamepedia.cursecdn.com/smite_gamepedia/a/a4/T_TheMorrigan_Default_Icon.png?version=789d8410fa008a5e7c7433aa3b4ff3d9"
         }
       ]
     },
@@ -63,98 +74,112 @@
           "pantheon": "Chinese",
           "title": "Dragon King of the Eastern Sea",
           "class": "Mage",
-          "icon": "https://i.imgur.com/6qXDb89.png"
+          "icon": "https://i.imgur.com/6qXDb89.png",
+          "icon2": "https://gamepedia.cursecdn.com/smite_gamepedia/3/33/T_AoKuang_Default_Icon.png?version=86bc26caee86e93a5428ea988ef3fb7a"
         },
         {
           "name": "Chang'e",
           "pantheon": "Chinese",
           "title": "Faerie of the Moon",
           "class": "Mage",
-          "icon": "https://i.imgur.com/AoJUQMM.png"
+          "icon": "https://i.imgur.com/AoJUQMM.png",
+          "icon2": "https://gamepedia.cursecdn.com/smite_gamepedia/9/9d/T_ChangE_Default_Icon.png?version=3d09fddcd93ad6b2efd9d3be11cb2d6e"
         },
         {
           "name": "Da Ji",
           "pantheon": "Chinese",
           "title": "The Nine-Tailed Fox",
           "class": "Assassin",
-          "icon": "https://i.imgur.com/kwrOQsQ.png"
+          "icon": "https://i.imgur.com/kwrOQsQ.png",
+          "icon2": "https://gamepedia.cursecdn.com/smite_gamepedia/4/41/T_DaJi_Default_Icon.png?version=9ec472ccca8b3ff26d6e10834f39847c"
         },
         {
           "pantheon": "Chinese",
           "name": "Erlang Shen",
           "title": "The Illustrious Sage",
           "class": "Warrior",
-          "icon": "https://i.imgur.com/zUp4GVc.png"
+          "icon": "https://i.imgur.com/zUp4GVc.png",
+          "icon2": "https://gamepedia.cursecdn.com/smite_gamepedia/9/9d/T_ErLangShen_Default_Icon.png?version=2675e6f8c94a148d96491c6fddfca5e9"
         },
         {
           "name": "Guan Yu",
           "pantheon": "Chinese",
           "title": "Saint of War",
           "class": "Warrior",
-          "icon": "https://i.imgur.com/NWabiBT.png"
+          "icon": "https://i.imgur.com/NWabiBT.png",
+          "icon2": "https://gamepedia.cursecdn.com/smite_gamepedia/e/e7/T_GuanYu_Default_Icon.png?version=4ddea62f177acd867bc6da84dadbdccd"
         },
         {
           "name": "He Bo",
           "pantheon": "Chinese",
           "title": "God of the Yellow River",
           "class": "Mage",
-          "icon": "https://i.imgur.com/YRozDbQ.png"
+          "icon": "https://i.imgur.com/YRozDbQ.png",
+          "icon2": "https://gamepedia.cursecdn.com/smite_gamepedia/0/01/T_HeBo_Default_Icon.png?version=59dce4f5617c8d96fc80246966db3580"
         },
         {
           "name": "Hou Yi",
           "pantheon": "Chinese",
           "title": "Defender of the Earth",
           "class": "Hunter",
-          "icon": "https://i.imgur.com/yhM0jTF.png"
+          "icon": "https://i.imgur.com/yhM0jTF.png",
+          "icon2": "https://gamepedia.cursecdn.com/smite_gamepedia/7/77/T_HouYi_Default_Icon.png?version=86598f39533394878da2f8a43613d450"
         },
         {
           "name": "Jing Wei",
           "pantheon": "Chinese",
           "title": "The Oathkeeper",
           "class":"Hunter",
-          "icon": "https://i.imgur.com/3dsYwkm.png"
+          "icon": "https://i.imgur.com/3dsYwkm.png",
+          "icon2": "https://gamepedia.cursecdn.com/smite_gamepedia/e/e9/T_JingWei_Default_Icon.png?version=b10bd96480098f4f5e8560f94b917a74"
         },
         {
           "name": "Mulan",
           "pantheon": "Chinese",
           "title": "The Ascendant Warrior",
           "class": "Warrior",
-          "icon": "https://i.imgur.com/lBxf8te.png"
+          "icon": "https://i.imgur.com/lBxf8te.png",
+          "icon2": "https://gamepedia.cursecdn.com/smite_gamepedia/3/35/Mulan_Default_Icon.png?version=ffd1cf74e30e258deafd5946b5fb96c1"
         },
         {
           "name": "Ne Zha",
           "pantheon": "Chinese",
           "title": "The Third Lotus Prince",
           "class": "Assassin",
-          "icon": "https://i.imgur.com/G7ulLzf.png"
+          "icon": "https://i.imgur.com/G7ulLzf.png",
+          "icon2": "https://gamepedia.cursecdn.com/smite_gamepedia/9/91/T_NeZha_Default_Icon.png?version=5760f85da9bc5d1b84df248ab59274f8"
         },
         {
           "name": "Nu Wa",
           "pantheon": "Chinese",
           "title": "Guardian of Heaven",
           "class": "Mage",
-          "icon": "https://i.imgur.com/lprQuku.png"
+          "icon": "https://i.imgur.com/lprQuku.png",
+          "icon2": "https://gamepedia.cursecdn.com/smite_gamepedia/8/88/T_NuWa_Default_Icon.png?version=2ba049f55591a38116b527d878dc832d"
         },
         {
           "name": "Sun Wukong",
           "pantheon": "Chinese",
           "title": "The Monkey King",
           "class": "Warrior",
-          "icon": "https://i.imgur.com/MnS0yyH.png"
+          "icon": "https://i.imgur.com/MnS0yyH.png",
+          "icon2": "https://gamepedia.cursecdn.com/smite_gamepedia/1/17/T_SunWukong_Default_Icon.png?version=b03e65cc5a4215d77874038937da8166"
         },
         {
           "name": "Xing Tian",
           "pantheon": "Chinese",
           "title": "The Relentless",
           "class": "Guardian",
-          "icon": "https://i.imgur.com/1SXYbL1.png"
+          "icon": "https://i.imgur.com/1SXYbL1.png",
+          "icon2": "https://gamepedia.cursecdn.com/smite_gamepedia/1/1a/T_XingTian_Default_Icon.png?version=c7276251158ee80e5927cde0f6cf8782"
         },
         {
           "name": "Zhong Kui",
           "pantheon": "Chinese",
           "title": "The Demon Queller",
           "class": "Mage",
-          "icon": "https://i.imgur.com/tTvakqU.png"
+          "icon": "https://i.imgur.com/tTvakqU.png",
+          "icon2": "https://gamepedia.cursecdn.com/smite_gamepedia/5/59/T_ZhongKui_Default_Icon.png?version=7620f4654eacca5bfb7dd70c6a2935c5"
         }
       ]
     },
@@ -166,98 +191,112 @@
           "pantheon": "Egyptian",
           "title": "Slayer of Enemies",
           "class": "Hunter",
-          "icon": "https://i.imgur.com/6LeTN9w.png"
+          "icon": "https://i.imgur.com/6LeTN9w.png",
+          "icon2": "https://gamepedia.cursecdn.com/smite_gamepedia/d/db/T_Anhur_Default_Icon.png?version=288562cb91c47458e74c4db225752921"
         },
         {
           "name": "Anubis",
           "pantheon": "Egyptian",
           "title": "God of the Dead",
           "class": "Mage",
-          "icon": "https://i.imgur.com/7A9mwZt.png"
+          "icon": "https://i.imgur.com/7A9mwZt.png",
+          "icon2": "https://gamepedia.cursecdn.com/smite_gamepedia/1/13/T_Anubis_Default_Icon.png?version=4513238364dadd176b9ca291c37c4e6c"
         },
         {
           "name": "Bastet",
           "pantheon": "Egyptian",
           "title": "Goddess of Cats",
           "class": "Assassin",
-          "icon": "https://i.imgur.com/81SSZ2Y.png"
+          "icon": "https://i.imgur.com/81SSZ2Y.png",
+          "icon2": "https://gamepedia.cursecdn.com/smite_gamepedia/e/ee/T_Bastet_Default_Icon.png?version=afb375fa3ac7d30c8390ea6bafcf3804"
         },
         {
           "name": "Geb",
           "pantheon": "Egyptian",
           "title": "God of Earth",
           "class": "Guardian",
-          "icon": "https://i.imgur.com/OODEu55.png"
+          "icon": "https://i.imgur.com/OODEu55.png",
+          "icon2": "https://gamepedia.cursecdn.com/smite_gamepedia/b/be/T_Geb_Default_Icon.png?version=04349f51a10ff48fb5f70b1ca3e6df32"
         },
         {
           "name": "Horus",
           "pantheon": "Egyptian",
           "title": "The Rightful Heir",
           "class": "Warrior",
-          "icon": "https://i.imgur.com/zgCDnWD.png"
+          "icon": "https://i.imgur.com/zgCDnWD.png",
+          "icon2": "https://gamepedia.cursecdn.com/smite_gamepedia/5/5b/T_Horus_Default_Icon.png?version=63df9ded24f66cb21d668f79e455de7e"
         },
         {
           "name": "Isis",
           "pantheon": "Egyptian",
           "title": "Goddess of Magic",
           "class": "Mage",
-          "icon": "https://i.imgur.com/QAndJOU.png"
+          "icon": "https://i.imgur.com/QAndJOU.png",
+          "icon2": "https://gamepedia.cursecdn.com/smite_gamepedia/b/b2/T_Isis_Default_Icon.png?version=28401e7403d483df2b7a4202f1585479"
         },
         {
           "name": "Khepri",
           "pantheon": "Egyptian",
           "title": "The Dawn Bringer",
           "class": "Guardian",
-          "icon": "https://i.imgur.com/1k3VDFQ.png"
+          "icon": "https://i.imgur.com/1k3VDFQ.png",
+          "icon2": "https://gamepedia.cursecdn.com/smite_gamepedia/2/24/T_Khepri_Default_Icon.png?version=16d064cd637e88d571b494d483d8364d"
         },
         {
           "name": "Neith",
           "pantheon": "Egyptian",
           "title": "Weaver of Fate",
           "class": "Hunter",
-          "icon": "https://i.imgur.com/xfFVyqD.png"
+          "icon": "https://i.imgur.com/xfFVyqD.png",
+          "icon2": "https://gamepedia.cursecdn.com/smite_gamepedia/f/fc/T_Neith_Default_Icon.png?version=ab564e150762cef2acdf911f5104ab06"
         },
         {
           "pantheon": "Egyptian",
           "name": "Osiris",
           "title": "Broken God of the Afterlife",
           "class": "Warrior",
-          "icon": "https://i.imgur.com/aWDi2ZF.png"
+          "icon": "https://i.imgur.com/aWDi2ZF.png",
+          "icon2": "https://gamepedia.cursecdn.com/smite_gamepedia/3/39/T_Osiris_Default_Icon.png?version=d4120c9f60b6059a7e933cb626997748"
         },
         {
           "name": "Ra",
           "pantheon": "Egyptian",
           "title": "Sun God",
           "class": "Mage",
-          "icon": "https://i.imgur.com/0bblIAP.png"
+          "icon": "https://i.imgur.com/0bblIAP.png",
+          "icon2": "https://gamepedia.cursecdn.com/smite_gamepedia/4/49/T_Ra_Default_Icon.png?version=c60dd0cedd56b8b614e1f3db817e7f6a"
         },
         {
           "name": "Serqet",
           "pantheon": "Egyptian",
           "title": "Goddess of Venom",
           "class": "Assassin",
-          "icon": "https://i.imgur.com/nlkaVIF.png"
+          "icon": "https://i.imgur.com/nlkaVIF.png",
+          "icon2": "https://gamepedia.cursecdn.com/smite_gamepedia/c/c0/T_Serqet_Default_Icon.png?version=866a69c0bc15424d5c36fab59b6c0e42"
         },
         {
           "name": "Set",
           "pantheon": "Egyptian",
           "title": "The Usurper",
           "class": "Assassin",
-          "icon": "https://i.imgur.com/nmrlWKC.png"
+          "icon": "https://i.imgur.com/nmrlWKC.png",
+          "icon2": "https://gamepedia.cursecdn.com/smite_gamepedia/e/e0/T_Set_Default_Icon.png?version=3db9feb3be0eec204ccd64cbb61e665e"
         },
         {
           "name": "Sobek",
           "pantheon": "Egyptian",
           "title": "God of the Nile",
           "class": "Guardian",
-          "icon": "https://i.imgur.com/ryRW85E.png"
+          "icon": "https://i.imgur.com/ryRW85E.png",
+          "icon2": "https://gamepedia.cursecdn.com/smite_gamepedia/b/b1/T_Sobek_Default_Icon.png?version=07c526b1da8993670918038f4b11c063"
         },
         {
           "name": "Thoth",
           "pantheon": "Egyptian",
           "title": "Arbiter of the Damned",
           "class": "Mage",
-          "icon": "https://i.imgur.com/vVQ1fxX.png"
+          "icon": "https://i.imgur.com/vVQ1fxX.png",
+          "icon2": "https://gamepedia.cursecdn.com/smite_gamepedia/0/05/T_Thoth_Default_Icon.png?version=cf0d14562ae624b2f3830c5e87dc41dd"
         }
       ]
     },
@@ -269,7 +308,8 @@
           "pantheon": "Great Old Ones",
           "title": "The Great Dreamer",
           "class": "Guardian",
-          "icon": "https://i.imgur.com/5BPv9zm.png"
+          "icon": "https://i.imgur.com/5BPv9zm.png",
+          "icon2": "https://gamepedia.cursecdn.com/smite_gamepedia/9/90/T_Cthulhu_Default_Icon.png?version=906ba6bb6d18d464ef9eef01736b43ce"
         }
       ]
     },
@@ -281,140 +321,160 @@
           "pantheon": "Greek",
           "title": "Hero of the Trojan War",
           "class": "Warrior",
-          "icon": "https://i.imgur.com/ffvITSW.png"
+          "icon": "https://i.imgur.com/ffvITSW.png",
+          "icon2": "https://gamepedia.cursecdn.com/smite_gamepedia/5/5a/T_Achilles_Default_Icon.png?version=10597113fe98f6e4a5b280b2eafb1df5"
         },
         {
           "name": "Aphrodite",
           "pantheon": "Greek",
           "title": "Goddess of Beauty",
           "class": "Mage",
-          "icon": "https://i.imgur.com/9B2XofY.png"
+          "icon": "https://i.imgur.com/9B2XofY.png",
+          "icon2": "https://gamepedia.cursecdn.com/smite_gamepedia/1/16/T_Aphrodite_Default_Icon.png?version=97dfa0bad52808acaf660ce15fb571a2"
         },
         {
           "name": "Apollo",
           "pantheon": "Greek",
           "title": "God of Music",
           "class": "Hunter",
-          "icon": "https://i.imgur.com/5CyJZmm.png"
+          "icon": "https://i.imgur.com/5CyJZmm.png",
+          "icon2": "https://gamepedia.cursecdn.com/smite_gamepedia/d/dc/T_Apollo_Default_Icon.png?version=902a461de0ff709a7e1701123fa09f70"
         },
         {
           "name": "Arachne",
           "pantheon": "Greek",
           "title": "the Weaver",
           "class": "Assassin",
-          "icon": "https://i.imgur.com/2NyPJaV.png"
+          "icon": "https://i.imgur.com/2NyPJaV.png",
+          "icon2": "https://gamepedia.cursecdn.com/smite_gamepedia/f/f9/T_Arachne_Default_Icon.png?version=cc77a407c809f30408e4ffabe0b750e5"
         },
         {
           "name": "Ares",
           "pantheon": "Greek",
           "title": "God of War",
           "class": "Guardian",
-          "icon": "https://i.imgur.com/1TUbwOz.png"
+          "icon": "https://i.imgur.com/1TUbwOz.png",
+          "icon2": "https://gamepedia.cursecdn.com/smite_gamepedia/3/35/T_Ares_Default_Icon.png?version=0ad0ea30d43bbd2681b86d112413ce04"
         },
         {
           "name": "Artemis",
           "pantheon": "Greek",
           "title": "Goddess of the Hunt",
           "class": "Hunter",
-          "icon": "https://i.imgur.com/xD4wPeU.png"
+          "icon": "https://i.imgur.com/xD4wPeU.png",
+          "icon2": "https://gamepedia.cursecdn.com/smite_gamepedia/4/41/T_Artemis_Default_Icon.png?version=ec8729c22877fb2fe400658caf04fc2a"
         },
         {
           "name": "Athena",
           "pantheon": "Greek",
           "title": "Goddess of Wisdom",
           "class": "Guardian",
-          "icon": "https://i.imgur.com/u0Gty97.png"
+          "icon": "https://i.imgur.com/u0Gty97.png",
+          "icon2": "https://gamepedia.cursecdn.com/smite_gamepedia/8/80/T_Athena_Default_Icon.png?version=5758d8633d4b6a8cbc0de7bd977ee15d"
         },
         {
           "name": "Cerberus",
           "pantheon": "Greek",
           "title": "Warden of the Underworld",
           "class": "Guardian",
-          "icon": "https://i.imgur.com/E9BHnBQ.png"
+          "icon": "https://i.imgur.com/E9BHnBQ.png",
+          "icon2": "https://gamepedia.cursecdn.com/smite_gamepedia/4/44/T_Cerberus_Default_Icon.png?version=232caa68a6d683a6f50c7b4f1ce76557"
         },
         {
           "name": "Chiron",
           "pantheon": "Greek",
           "title": "The Great Teacher",
           "class": "Hunter",
-          "icon": "https://i.imgur.com/vqQ6vBf.png"
+          "icon": "https://i.imgur.com/vqQ6vBf.png",
+          "icon2": "https://gamepedia.cursecdn.com/smite_gamepedia/a/a6/T_Chiron_Default_Icon.png?version=713f9cc13bc2add99075e6d20f3b3c30"
         },
         {
           "name": "Chronos",
           "pantheon": "Greek",
           "title": "Keeper of Time",
           "class": "Mage",
-          "icon": "https://i.imgur.com/dEAyotR.png"
+          "icon": "https://i.imgur.com/dEAyotR.png",
+          "icon2": "https://gamepedia.cursecdn.com/smite_gamepedia/8/88/T_Chronos_Default_Icon.png?version=3382e57c86b8642c62077baba49bfd48"
         },
         {
           "name": "Hades",
           "pantheon": "Greek",
           "title": "King of the Underworld",
           "class": "Guardian",
-          "icon": "https://i.imgur.com/1eIg7Wf.png"
+          "icon": "https://i.imgur.com/1eIg7Wf.png",
+          "icon2": "https://gamepedia.cursecdn.com/smite_gamepedia/8/83/T_Hades_Default_Icon.png?version=ca4d30b321fa632204ef20a8dba36adc"
         },
         {
           "name": "Hera",
           "pantheon": "Greek",
           "title": "Queen of the Gods",
           "class": "Mage",
-          "icon": "https://i.imgur.com/9lXAbyy.png"
+          "icon": "https://i.imgur.com/9lXAbyy.png",
+          "icon2": "https://gamepedia.cursecdn.com/smite_gamepedia/f/fa/T_Hera_Default_Icon.png?version=8a33fa36694249265c143b40965fe580"
         },
         {
           "name": "Medusa",
           "pantheon": "Greek",
           "title": "The Gorgon",
           "class": "Hunter",
-          "icon": "https://i.imgur.com/EXAiGIO.png"
+          "icon": "https://i.imgur.com/EXAiGIO.png",
+          "icon2": "https://gamepedia.cursecdn.com/smite_gamepedia/3/3d/T_Medusa_Default_Icon.png?version=3435152c6bfdbf7eb405fa79b888240d"
         },
         {
           "name": "Nemesis",
           "pantheon": "Greek",
           "title": "Goddess of Vengeance",
           "class": "Assassin",
-          "icon": "https://i.imgur.com/kQk7GPn.png"
+          "icon": "https://i.imgur.com/kQk7GPn.png",
+          "icon2": "https://gamepedia.cursecdn.com/smite_gamepedia/0/03/T_Nemesis_Default_Icon.png?version=45559af8c10b6215ebf33da68961e658"
         },
         {
           "name": "Nike",
           "pantheon": "Greek",
           "title": "Goddess of Victory",
           "class": "Warrior",
-          "icon": "https://i.imgur.com/kH531pj.png"
+          "icon": "https://i.imgur.com/kH531pj.png",
+          "icon2": "https://gamepedia.cursecdn.com/smite_gamepedia/1/17/T_Nike_Default_Icon.png?version=bed46f39f3304f551c9802dae469ebd3"
         },
         {
           "name": "Persephone",
           "pantheon": "Greek",
           "title": "Queen of the Underworld",
           "class": "Mage",
-          "icon": "https://i.imgur.com/PzEe7kZ.png"
+          "icon": "https://i.imgur.com/PzEe7kZ.png",
+          "icon2": "https://gamepedia.cursecdn.com/smite_gamepedia/6/61/T_Persephone_Default_Icon.png?version=1adafde1e1117783ed968693c7462173"
         },
         {
           "name": "Poseidon",
           "pantheon": "Greek",
           "title": "God of the Oceans",
           "class": "Mage",
-          "icon": "https://i.imgur.com/7vVmwdc.png"
+          "icon": "https://i.imgur.com/7vVmwdc.png",
+          "icon2": "https://gamepedia.cursecdn.com/smite_gamepedia/a/a9/T_Poseidon_Default_Icon.png?version=5e0ade5a77a822ef61ea8c2719474434"
         },
         {
           "name": "Scylla",
           "pantheon": "Greek",
           "title": "Horror of the Deep",
           "class": "Mage",
-          "icon": "https://i.imgur.com/eM00pC0.png"
+          "icon": "https://i.imgur.com/eM00pC0.png",
+          "icon2": "https://gamepedia.cursecdn.com/smite_gamepedia/c/c3/T_Scylla_Default_Icon.png?version=bee3630fc001bbe4c87d4c17670de1f8"
         },
         {
           "name": "Thanatos",
           "pantheon": "Greek",
           "title": "Hand of Death",
           "class": "Assassin",
-          "icon": "https://i.imgur.com/u0YKLVM.png"
+          "icon": "https://i.imgur.com/u0YKLVM.png",
+          "icon2": "https://gamepedia.cursecdn.com/smite_gamepedia/c/cd/T_Thanatos_Default_Icon.png?version=90da3387e3b1a35d09c72affebc72845"
         },
         {
           "name": "Zeus",
           "pantheon": "Greek",
           "title": "God of the Sky",
           "class": "Mage",
-          "icon": "https://i.imgur.com/7AQysPJ.png"
+          "icon": "https://i.imgur.com/7AQysPJ.png",
+          "icon2": "https://gamepedia.cursecdn.com/smite_gamepedia/9/96/T_Zeus_Default_Icon.png?version=390a69a60ebd1819bf667b1dfaa00951"
         }
       ]
     },
@@ -426,56 +486,64 @@
           "pantheon": "Hindu",
           "title": "God of Fire",
           "class": "Mage",
-          "icon": "https://i.imgur.com/4JVO0GJ.png"
+          "icon": "https://i.imgur.com/4JVO0GJ.png",
+          "icon2": "https://gamepedia.cursecdn.com/smite_gamepedia/9/90/T_Agni_Default_Icon.png?version=ee5661ca99e1b31f179110cef1292e23"
         },
         {
           "name": "Bakasura",
           "pantheon": "Hindu",
           "title": "The Great Devourer",
           "class": "Mage",
-          "icon": "https://i.imgur.com/Rd7LGoC.png"
+          "icon": "https://i.imgur.com/Rd7LGoC.png",
+          "icon2": "https://gamepedia.cursecdn.com/smite_gamepedia/5/51/T_Bakasura_Default_Icon.png?version=47d99a1a5cf975235505c68b07a626ba"
         },
         {
           "name": "Ganesha",
           "pantheon": "Hindu",
           "title": "God of Success",
           "class": "Guardian",
-          "icon": "https://i.imgur.com/BVvBTKC.png"
+          "icon": "https://i.imgur.com/BVvBTKC.png",
+          "icon2": "https://gamepedia.cursecdn.com/smite_gamepedia/8/8b/T_Ganesha_Default_Icon.png?version=c9441f166f3348e2a3fbaf5073fc82c5"
         },
         {
           "name": "Kali",
           "pantheon": "Hindu",
           "title": "Goddess of Destruction",
           "class": "Assassin",
-          "icon": "https://i.imgur.com/J5PGD56.png"
+          "icon": "https://i.imgur.com/J5PGD56.png",
+          "icon2": "https://gamepedia.cursecdn.com/smite_gamepedia/1/15/T_Kali_Default_Icon.png?version=04e6051760b06a4a6ad4bacae5136199"
         },
         {
           "name": "Kumbhakarna",
           "pantheon": "Hindu",
           "title": "The Sleeping Giant",
           "class": "Guardian",
-          "icon": "https://i.imgur.com/UNTGPIR.png"
+          "icon": "https://i.imgur.com/UNTGPIR.png",
+          "icon2": "https://gamepedia.cursecdn.com/smite_gamepedia/6/67/T_Kumbhakarna_Default_Icon.png?version=ef8d56f2b08df34ca650cf4d54ec2872"
         },
         {
           "name": "Rama",
           "pantheon": "Hindu",
           "title": "Seventh Avatar of Vishnu",
           "class": "Hunter",
-          "icon": "https://i.imgur.com/CoINzyb.png"
+          "icon": "https://i.imgur.com/CoINzyb.png",
+          "icon2": "https://gamepedia.cursecdn.com/smite_gamepedia/e/eb/T_Ram_Default_Icon.png?version=74e9315cf996f97e94bdcb8677a1b252"
         },
         {
           "name": "Ravana",
           "pantheon": "Hindu",
           "title": "Demon King of Lanka",
           "class": "Warrior",
-          "icon": "https://i.imgur.com/U85zhyY.png"
+          "icon": "https://i.imgur.com/U85zhyY.png",
+          "icon2": "https://gamepedia.cursecdn.com/smite_gamepedia/3/3d/T_Ravana_Default_Icon.png?version=f15359399aeff974cea18cdbde04179e"
         },
         {
           "name": "Vamana",
           "pantheon": "Hindu",
           "title": "Fifth Avatar of Vishnu",
           "class": "Warrior",
-          "icon": "https://i.imgur.com/WsJo3vg.png"
+          "icon": "https://i.imgur.com/WsJo3vg.png",
+          "icon2": "https://gamepedia.cursecdn.com/smite_gamepedia/c/cb/T_Vamana_Default_Icon.png?version=dbf1c9fe9698b5e10dcbed4a47c7dab0"
         }
       ]
     },
@@ -487,42 +555,48 @@
           "pantheon": "Japanese",
           "title": "The Shining Light",
           "class": "Warrior",
-          "icon": "https://i.imgur.com/0UG7KWC.png"
+          "icon": "https://i.imgur.com/0UG7KWC.png",
+          "icon2": "https://gamepedia.cursecdn.com/smite_gamepedia/9/9b/T_Amaterasu_Default_Icon.png?version=e0c461317e2e028dbe9414f380dd3526"
         },
         {
           "name": "Hachiman",
           "pantheon": "Japanese",
           "title": "Lord of the Eight",
           "class": "Hunter",
-          "icon": "https://i.imgur.com/9ytRj2H.png"
+          "icon": "https://i.imgur.com/9ytRj2H.png",
+          "icon2": "https://gamepedia.cursecdn.com/smite_gamepedia/2/2b/T_Hachiman_Default_Icon.png?version=a1d07e8ae0faa0db473528380f4d206c"
         },
         {
           "name": "Izanami",
           "pantheon": "Japanese",
           "title": "Matron of the Dead",
           "class": "Hunter",
-          "icon": "https://i.imgur.com/vD8T4ar.png"
+          "icon": "https://i.imgur.com/vD8T4ar.png",
+          "icon2": "https://gamepedia.cursecdn.com/smite_gamepedia/6/6f/T_Izanami_Default_Icon.png?version=e2a217053df469c2fa581b93c99795d3"
         },
         {
           "name": "Kuzenbo",
           "pantheon": "Japanese",
           "title": "King Kappa",
           "class": "Guardian",
-          "icon": "https://i.imgur.com/GQNtGG1.png"
+          "icon": "https://i.imgur.com/GQNtGG1.png",
+          "icon2": "https://gamepedia.cursecdn.com/smite_gamepedia/2/2c/T_Kuzenbo_Default_Icon.png?version=112df5965dd1ac1aa282e6677571efda"
         },
         {
           "name": "Raijin",
           "pantheon": "Japanese",
           "title": "Master of Thunder",
           "class": "Mage",
-          "icon": "https://i.imgur.com/u5oatHQ.png"
+          "icon": "https://i.imgur.com/u5oatHQ.png",
+          "icon2": "https://gamepedia.cursecdn.com/smite_gamepedia/9/92/T_Raijin_Default_Icon.png?version=aa9af3a38602f0db004e9188fd3772db"
         },
         {
           "name": "Susano",
           "pantheon": "Japanese",
           "title": "God of the Summer Storm",
           "class": "Assassin",
-          "icon": "https://i.imgur.com/iYuL6vR.png"
+          "icon": "https://i.imgur.com/iYuL6vR.png",
+          "icon2": "https://gamepedia.cursecdn.com/smite_gamepedia/8/8f/T_Susano_Default_Icon.png?version=3e9a672132c8d62c460718f2320ddbb3"
         }
       ]
     },
@@ -534,63 +608,72 @@
           "pantheon": "Mayan",
           "title": "God of Bees",
           "class": "Hunter",
-          "icon": "https://i.imgur.com/DcAI91G.png"
+          "icon": "https://i.imgur.com/DcAI91G.png",
+          "icon2": "https://gamepedia.cursecdn.com/smite_gamepedia/9/99/T_AMC_Default_Icon.png?version=c2d46e7130fed83209ed2f21e535a1fc"
         },
         {
           "name": "Ah Puch",
           "pantheon": "Mayan",
           "title": "Horrific God of Decay",
           "class": "Assassin",
-          "icon": "https://i.imgur.com/3qcuLVH.png"
+          "icon": "https://i.imgur.com/3qcuLVH.png",
+          "icon2": "https://gamepedia.cursecdn.com/smite_gamepedia/8/8b/T_AhPuch_Default_Icon.png?version=5738c199ccc1a12a338646c6e5bbbfbf"
         },
         {
           "name": "Awilix",
           "pantheon": "Mayan",
           "title": "Goddess of the Moon",
           "class": "Assassin",
-          "icon": "https://i.imgur.com/eOv1HTc.png"
+          "icon": "https://i.imgur.com/eOv1HTc.png",
+          "icon2": "https://gamepedia.cursecdn.com/smite_gamepedia/3/30/T_Awilix_Default_Icon.png?version=1e8fe2224730e990828a8ae29dc6d40a"
         },
         {
           "name": "Cabrakan",
           "pantheon": "Mayan",
           "title": "Destroyer of Mountains",
           "class": "Guardian",
-          "icon": "https://i.imgur.com/2o08nS8.png"
+          "icon": "https://i.imgur.com/2o08nS8.png",
+          "icon2": "https://gamepedia.cursecdn.com/smite_gamepedia/4/4a/T_Cabrakan_Default_Icon.png?version=12b574dae427e766ab44c53138295d27"
         },
         {
           "name": "Camazotz",
           "pantheon": "Mayan",
           "title": "Deadly God of Bats",
           "class": "Assassin",
-          "icon": "https://i.imgur.com/jbHOxz7.png"
+          "icon": "https://i.imgur.com/jbHOxz7.png",
+          "icon2": "https://gamepedia.cursecdn.com/smite_gamepedia/5/50/T_Camazotz_Default_Icon.png?version=880f2c44cf82206694e52b8aa8a1b1de"
         },
         {
           "name": "Chaac",
           "pantheon": "Mayan",
           "title": "God of Rain",
           "class": "Warrior",
-          "icon": "https://i.imgur.com/V3LbrFK.png"
+          "icon": "https://i.imgur.com/V3LbrFK.png",
+          "icon2": "https://gamepedia.cursecdn.com/smite_gamepedia/2/20/T_Chaac_Default_Icon.png?version=d49e8fdd62bc2608838b22cd9208314a"
         },
         {
           "name": "Hun Batz",
           "pantheon": "Mayan",
           "title": "The Howler Monkey God",
           "class": "Assassin",
-          "icon": "https://i.imgur.com/bgdzs8X.png"
+          "icon": "https://i.imgur.com/bgdzs8X.png",
+          "icon2": "https://gamepedia.cursecdn.com/smite_gamepedia/2/20/T_HunBatz_Default_Icon.png?version=1a0fd7e7d689c9384b8d4237b7fce3dd"
         },
         {
           "name": "Kukulkan",
           "pantheon": "Mayan",
           "title": "Serpent of the Nine Winds",
           "class": "Mage",
-          "icon": "https://i.imgur.com/sFVaFGS.png"
+          "icon": "https://i.imgur.com/sFVaFGS.png",
+          "icon2": "https://gamepedia.cursecdn.com/smite_gamepedia/7/76/T_Kukulkan_Default_Icon.png?version=77f1c6588eef08b261c1dd114c6816a1"
         },
         {
           "name": "Xbalanque",
           "pantheon": "Mayan",
           "title": "Hidden Jaguar Sun",
           "class": "Hunter",
-          "icon": "https://i.imgur.com/yxSvxTZ.png"
+          "icon": "https://i.imgur.com/yxSvxTZ.png",
+          "icon2": "https://gamepedia.cursecdn.com/smite_gamepedia/5/5b/T_Xbalanque_Default_Icon.png?version=9d7289337f43c5f42272d2e58da43120"
         }
       ]
     },
@@ -602,105 +685,120 @@
           "pantheon": "Norse",
           "title": "Lord of Glittering Gold",
           "class": "Guardian",
-          "icon": "https://i.imgur.com/WrlcgQc.png"
+          "icon": "https://i.imgur.com/WrlcgQc.png",
+          "icon2": "https://gamepedia.cursecdn.com/smite_gamepedia/6/6d/T_Fafnir_Default_Icon.png?version=16e892b13c35b1735c975b209417e1a0"
         },
         {
           "name": "Fenrir",
           "pantheon": "Norse",
           "title": "The Unbound",
           "class": "Assassin",
-          "icon": "https://i.imgur.com/epm7bQj.png"
+          "icon": "https://i.imgur.com/epm7bQj.png",
+          "icon2": "https://gamepedia.cursecdn.com/smite_gamepedia/9/93/T_Fenrir_Default_Icon.png?version=7c155b9e4a58955898ef3dfa42d61142"
         },
         {
           "name": "Freya",
           "pantheon": "Norse",
           "title": "Queen of the Valkyries",
           "class": "Mage",
-          "icon": "https://i.imgur.com/tAo0fOk.png"
+          "icon": "https://i.imgur.com/tAo0fOk.png",
+          "icon2": "https://gamepedia.cursecdn.com/smite_gamepedia/2/29/T_Freya_Default_Icon.png?version=abedbff7b9462fcdcd2175d5a18380ae"
         },
         {
           "name": "Heimdallr",
           "pantheon": "Norse",
           "title": "The Vigilant",
           "class": "Hunter",
-          "icon": "https://i.imgur.com/1xQYaJC.png"
+          "icon": "https://i.imgur.com/1xQYaJC.png",
+          "icon2": "https://gamepedia.cursecdn.com/smite_gamepedia/5/59/T_Heimdallr_Default_Icon.png?version=a986dbf63163bd3ec58a439c0450fc63"
         },
         {
           "name": "Hel",
           "pantheon": "Norse",
           "title": "Goddess of the Underworld",
           "class": "Mage",
-          "icon": "https://i.imgur.com/ulEblHc.png"
+          "icon": "https://i.imgur.com/ulEblHc.png",
+          "icon2": "https://gamepedia.cursecdn.com/smite_gamepedia/c/c6/T_Hel_Default_Icon.png?version=fc67c70474d8d64fda4b7eed2fea9247"
         },
         {
           "name": "Jormungandr",
           "pantheon": "Norse",
           "title": "The World Serpent",
           "class": "Guardian",
-          "icon": "https://i.imgur.com/wv3LrQg.png"
+          "icon": "https://i.imgur.com/wv3LrQg.png",
+          "icon2": "https://gamepedia.cursecdn.com/smite_gamepedia/2/2a/T_Jormungandr_Default_Icon.png?version=2c47e1229e2f55164761c7ecc3bec986"
         },
         {
           "name": "Loki",
           "pantheon": "Norse",
           "title": "The Trickster God",
           "class": "Assassin",
-          "icon": "https://i.imgur.com/HFJ1Ks8.png"
+          "icon": "https://i.imgur.com/HFJ1Ks8.png",
+          "icon2": "https://gamepedia.cursecdn.com/smite_gamepedia/c/c6/T_Loki_Default_Icon.png?version=35e10e4fc7634c74c7693405c1d2371e"
         },
         {
           "name": "Odin",
           "pantheon": "Norse",
           "title": "The Allfather",
           "class": "Warrior",
-          "icon": "https://i.imgur.com/SZXoMaQ.png"
+          "icon": "https://i.imgur.com/SZXoMaQ.png",
+          "icon2": "https://gamepedia.cursecdn.com/smite_gamepedia/3/36/T_Odin_Default_Icon.png?version=21daf4bc0fe6aaf356ba6b8bbeeddce4"
         },
         {
           "name": "Ratatoskr",
           "pantheon": "Norse",
           "title": "The Sly Messenger",
           "class": "Assassin",
-          "icon": "https://i.imgur.com/U6p3qCR.png"
+          "icon": "https://i.imgur.com/U6p3qCR.png",
+          "icon2": "https://gamepedia.cursecdn.com/smite_gamepedia/e/e4/T_Ratatoskr_Default_Icon.png?version=02ea99905c899eeffb7cd67f88d3ae0c"
         },
         {
           "name": "Skadi",
           "pantheon": "Norse",
           "title": "Goddess of Winter",
           "class": "Hunter",
-          "icon": "https://i.imgur.com/QnCFOuk.png"
+          "icon": "https://i.imgur.com/QnCFOuk.png",
+          "icon2": "https://gamepedia.cursecdn.com/smite_gamepedia/8/85/T_Skadi_Default_Icon.png?version=0d8e41f5fad10a9abac3f60a6b8c1dee"
         },
         {
           "name": "Sol",
           "pantheon": "Norse",
           "title": "Goddess of the Sun",
           "class": "Mage",
-          "icon": "https://i.imgur.com/QKkOE1t.png"
+          "icon": "https://i.imgur.com/QKkOE1t.png",
+          "icon2": "https://gamepedia.cursecdn.com/smite_gamepedia/9/9b/T_Sol_Default_Icon.png?version=e9dcda046458f42ea1f5f31bab780e9c"
         },
         {
           "name": "Thor",
           "pantheon": "Norse",
           "title": "God of Thunder",
           "class": "Assassin",
-          "icon": "https://i.imgur.com/VOeJFyk.png"
+          "icon": "https://i.imgur.com/VOeJFyk.png",
+          "icon2": "https://gamepedia.cursecdn.com/smite_gamepedia/6/60/T_Thor_Default_Icon.png?version=ad3355f798fb973dee365f7c2278d48d"
         },
         {
           "name": "Tyr",
           "pantheon": "Norse",
           "title": "The Lawgiver",
           "class": "Warrior",
-          "icon": "https://i.imgur.com/kTJSEnX.png"
+          "icon": "https://i.imgur.com/kTJSEnX.png",
+          "icon2": "https://gamepedia.cursecdn.com/smite_gamepedia/5/56/T_Tyr_Default_Icon.png?version=66fcc095eabc00d807a0e3232bc1e414"
         },
         {
           "name": "Ullr",
           "pantheon": "Norse",
           "title": "The Glorious One",
           "class": "Hunter",
-          "icon": "https://i.imgur.com/T8t79DY.png"
+          "icon": "https://i.imgur.com/T8t79DY.png",
+          "icon2": "https://gamepedia.cursecdn.com/smite_gamepedia/4/41/T_Ullr_Default_Icon.png?version=cee4fd66c1f287b6e1abb9a72a3838c4"
         },
         {
           "name": "Ymir",
           "pantheon": "Norse",
           "title": "Father of the Frost Giants",
           "class": "Guardian",
-          "icon": "https://i.imgur.com/mZIrEiq.png"
+          "icon": "https://i.imgur.com/mZIrEiq.png",
+          "icon2": "https://gamepedia.cursecdn.com/smite_gamepedia/f/f4/T_Ymir_Default_Icon.png?version=11b61d409c4e3097b6d5c8aaa161e7fd"
         }
       ]
     },
@@ -712,7 +810,8 @@
           "pantheon": "Polynesian",
           "title": "Goddess of Volcanoes",
           "class": "Assassin",
-          "icon": "https://i.imgur.com/FrkUXHN.png"
+          "icon": "https://i.imgur.com/FrkUXHN.png",
+          "icon2": "https://gamepedia.cursecdn.com/smite_gamepedia/c/c8/T_Pele_Default_Icon.png?version=ecc17404ff6931499f683ec45a9f359b"
         }
       ]
     },
@@ -724,77 +823,88 @@
           "pantheon": "Roman",
           "title": "God of Wine",
           "class": "Guardian",
-          "icon": "https://i.imgur.com/EQpQ0Ih.png"
+          "icon": "https://i.imgur.com/EQpQ0Ih.png",
+          "icon2": "https://gamepedia.cursecdn.com/smite_gamepedia/f/ff/T_Bacchus_Default_Icon.png?version=ae1b04c58a425a3f05e2f3ef0553cd50"
         },
         {
           "name": "Bellona",
           "pantheon": "Roman",
           "title": "Goddess of War",
           "class": "Warrior",
-          "icon": "https://i.imgur.com/J5844wo.png"
+          "icon": "https://i.imgur.com/J5844wo.png",
+          "icon2": "https://gamepedia.cursecdn.com/smite_gamepedia/4/4d/T_Bellona_Default_Icon.png?version=c20c76909afb9c5cd58236282a96c29f"
         },
         {
           "name": "Cupid",
           "pantheon": "Roman",
           "title": "God of Love",
           "class": "Hunter",
-          "icon": "https://i.imgur.com/Zx3tudd.png"
+          "icon": "https://i.imgur.com/Zx3tudd.png",
+          "icon2": "https://gamepedia.cursecdn.com/smite_gamepedia/5/5d/T_Cupid_Default_Icon.png?version=97759c6fe50fb1ed4c34595cd57f493c"
         },
         {
           "name": "Discordia",
           "pantheon": "Roman",
           "title": "Goddess of Strife",
           "class": "Mage",
-          "icon": "https://i.imgur.com/iadiZ1b.png"
+          "icon": "https://i.imgur.com/iadiZ1b.png",
+          "icon2": "https://gamepedia.cursecdn.com/smite_gamepedia/8/8a/T_Discordia_Default_Icon.png?version=96fff6a0cbdca3269836a24981488528"
         },
         {
           "name": "Hercules",
           "pantheon": "Roman",
           "title": "Champion of Rome",
           "class": "Warrior",
-          "icon": "https://i.imgur.com/AMaCsAp.png"
+          "icon": "https://i.imgur.com/AMaCsAp.png",
+          "icon2": "https://gamepedia.cursecdn.com/smite_gamepedia/f/f0/T_Hercules_Default_Icon.png?version=72bd22e39284f3bea4a97bef3c02c7d4"
         },
         {
           "name": "Janus",
           "pantheon": "Roman",
           "title": "God of Portals and Transitions",
           "class": "Mage",
-          "icon": "https://i.imgur.com/qvQQIR7.png"
+          "icon": "https://i.imgur.com/qvQQIR7.png",
+          "icon2": "https://gamepedia.cursecdn.com/smite_gamepedia/3/33/T_Janus_Default_Icon.png?version=85ce4855a52d678623a0fe0a13c7b19c"
         },
         {
           "name": "Mercury",
           "pantheon": "Roman",
           "title": "Messenger of the Gods",
           "class": "Assassin",
-          "icon": "https://i.imgur.com/iyd7GN6.png"
+          "icon": "https://i.imgur.com/iyd7GN6.png",
+          "icon2": "https://gamepedia.cursecdn.com/smite_gamepedia/6/6a/T_Mercury_Default_Icon.png?version=a4fef69733a993f5922b12b3a7d7ace4"
         },
         {
           "name": "Nox",
           "pantheon": "Roman",
           "title": "Goddess of Night",
           "class": "Mage",
-          "icon": "https://i.imgur.com/ioB1Xmv.png"
+          "icon": "https://i.imgur.com/ioB1Xmv.png",
+          "icon2": "https://gamepedia.cursecdn.com/smite_gamepedia/9/95/T_Nox_Default_Icon.png?version=4067b4a20e7623990a82b064d0c0fe97"
         },
         {
           "name": "Sylvanus",
           "pantheon": "Roman",
           "title": "Keeper of the Wild",
           "class": "Guardian",
-          "icon": "https://i.imgur.com/yaAKt9R.png"
+          "icon": "https://i.imgur.com/yaAKt9R.png",
+          "icon2": "https://gamepedia.cursecdn.com/smite_gamepedia/1/1e/T_Sylvanus_Default_Icon.png?version=f800b24221713b6c5a0f84f25c3d6eec"
         },
         {
           "name": "Terra",
           "pantheon": "Roman",
           "title": "The Earth Mother",
           "class": "Guardian",
-          "icon": "https://i.imgur.com/M9Vsvcb.png"
+          "icon": "https://i.imgur.com/M9Vsvcb.png",
+          "icon2": "https://gamepedia.cursecdn.com/smite_gamepedia/8/87/T_Terra_Default_Icon.png?version=fb672ff7ab8be50584895ccb078d1c2b"
         },
         {
           "name": "Vulcan",
           "pantheon": "Roman",
           "title": "Smith of the Gods",
           "class": "Mage",
-          "icon": "https://i.imgur.com/ymAhSr9.png"
+          "icon": "https://i.imgur.com/ymAhSr9.png",
+          "icon2": "https://gamepedia.cursecdn.com/smite_gamepedia/a/a6/T_Vulcan_Default_Icon.png?version=8def4869ce7dd0be2edc00062a921cb5"
         }
       ]
     },
@@ -806,14 +916,16 @@
           "pantheon": "Slavic",
           "title": "Witch of the Woods",
           "class": "Mage",
-          "icon": "https://i.imgur.com/UsU2Jvw.png"
+          "icon": "https://i.imgur.com/UsU2Jvw.png",
+          "icon2": "https://gamepedia.cursecdn.com/smite_gamepedia/1/15/T_BabaYaga_Default_Icon.png?version=1e4d7b35ff1a73954aea0252df3c3725"
         },
         {
           "name": "Chernobog",
           "pantheon": "Slavic",
           "title": "Lord of Darkness",
           "class": "Hunter",
-          "icon": "https://i.imgur.com/mAZeMeh.png"
+          "icon": "https://i.imgur.com/mAZeMeh.png",
+          "icon2": "https://gamepedia.cursecdn.com/smite_gamepedia/e/e3/T_Chernobog_Default_Icon.png?version=5de07619ee25e2ef3ddb977f5ba5752c"
         }
       ]
     },
@@ -825,7 +937,8 @@
           "pantheon": "Voodoo",
           "title": "God of Life and Death",
           "class": "Mage",
-          "icon": "https://i.imgur.com/uAQlBAA.png"
+          "icon": "https://i.imgur.com/uAQlBAA.png",
+          "icon2": "https://gamepedia.cursecdn.com/smite_gamepedia/e/ef/T_BaronSamedi_Default_Icon.png?version=0a793d44f01de703857eff5524cfb409"
         }
       ]
     },
@@ -837,14 +950,16 @@
           "pantheon": "Yoruba",
           "title": "Ruler of the Heavens",
           "class": "Mage",
-          "icon": "https://i.imgur.com/Y1Mqs1y.png"
+          "icon": "https://i.imgur.com/Y1Mqs1y.png",
+          "icon2": "https://gamepedia.cursecdn.com/smite_gamepedia/8/8a/T_Olorun_Default_Icon.png?version=09896e750016c035ca0b389debff260d"
         },
         {
           "name": "Yemoja",
           "pantheon": "Yoruba",
           "title": "Goddess of Rivers",
           "class": "Guardian",
-          "icon": "https://i.imgur.com/A1Eqcbx.png"
+          "icon": "https://i.imgur.com/A1Eqcbx.png",
+          "icon2": "https://gamepedia.cursecdn.com/smite_gamepedia/e/ec/T_Yemoja_Default_Icon.png?version=e1a81f72f307932739854782d15a4a31"
         }
       ]
     }

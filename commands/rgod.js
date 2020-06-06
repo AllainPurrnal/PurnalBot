@@ -1,18 +1,19 @@
-const Discord = require('discord.js');
-const { pantheon } = require('../smite.json');
+const { MessageEmbed } = require('discord.js');
+const { pantheon, role } = require('../smite.json');
 
 let godList = [];
+let num, name, title, icon, pan, gClass;
 
-const buildCard = (message, godList) => {
-  let num = Math.floor(Math.random() * (godList.length))
-  let name = godList[num].name;
-  let title = godList[num].title;
-  let icon = godList[num].icon;
-  let pan = godList[num].pantheon
-  let cClass = godList[num].class
+const buildGodCard = (message, godList) => {
+  num = Math.floor(Math.random() * (godList.length))
+  name = godList[num].name;
+  title = godList[num].title;
+  icon = godList[num].icon2;
+  pan = godList[num].pantheon
+  gClass = godList[num].class
 
   const color = () => {
-    switch (cClass) {
+    switch (gClass) {
       case 'Warrior':
         return `#de0000`
       case 'Mage':
@@ -27,15 +28,29 @@ const buildCard = (message, godList) => {
     } 
   }
 
-  const godCard = new Discord.MessageEmbed()
+  const godCard = new MessageEmbed()
     .setColor(color())
     .setTitle(`${name}`)
-    .setDescription(`${title}`)
+    .setDescription(`*${title}*`)
     .setThumbnail(`${icon}`)
-    .addField('Pantheon', `${pan}`)
+    .addField('Pantheon', `*${pan}*`)
 
   return message.reply(godCard)
 };
+
+const buildRoleCard = (message, rRole) => {
+  name = rRole.name;
+  icon = rRole.icon;
+  let desc = rRole.description
+
+  const roleCard = new MessageEmbed()
+    .setColor(`#FF00B4`)
+    .setTitle(`${name}`)
+    .setDescription(`${desc}`)
+    .setThumbnail(`${icon}`)
+
+  return message.reply(roleCard)
+}
 
 const randomGod = (message) => {
   godList = [];
@@ -45,7 +60,7 @@ const randomGod = (message) => {
       return godList.push(god)
     })
   })
-  buildCard(message, godList)
+  buildGodCard(message, godList)
 };
 
 const randomGodPantheon = (message, choice) => {
@@ -58,7 +73,7 @@ const randomGodPantheon = (message, choice) => {
     })
 
     // console.log(godList[0])
-    return buildCard(message, godList)
+    return buildGodCard(message, godList)
   }
 
   let isChoice = ((p) => {
@@ -72,7 +87,7 @@ const randomGodPantheon = (message, choice) => {
   })
 
   // console.log(godList)
-  buildCard(message, godList)
+  buildGodCard(message, godList)
 };
 
 const randomGodClass = (message, choice) => {
@@ -90,13 +105,22 @@ const randomGodClass = (message, choice) => {
 
   godList = godList.filter(isChoice)
 
-  buildCard(message, godList)
+  buildGodCard(message, godList)
+};
+
+const randomRole = (message) => {
+  let rand = Math.floor(Math.random() * (role.length))
+  let rRole = role[rand]
+
+  // console.log(rRole)
+
+  buildRoleCard(message, rRole)
 };
 
 module.exports = {
   name: 'rgod',
   description: 'Chooses a random god for SMITE. Specify a Pantheon or Class for a narrowed random God.',
-	usage: '<pantheon> || <class>',
+	usage: '<pantheon> || <class> || <role>',
   execute(message, args) {
     let choice;
     if (!args.length) choice = args
@@ -105,6 +129,16 @@ module.exports = {
     // console.log(message.author.username)
 
     switch (choice) {
+      case "role":
+        return randomRole(message);
+
+      case "hunter":
+      case "warrior":
+      case "mage":
+      case "guardian":
+      case "assassin":
+        return randomGodClass(message, choice)
+          
       case "arthurian":
       case "celtic":
       case "chinese":
@@ -121,13 +155,6 @@ module.exports = {
       case "voodoo":
       case "yoruba":
         return randomGodPantheon(message, choice)
-
-      case "hunter":
-      case "warrior":
-      case "mage":
-      case "guardian":
-      case "assassin":
-        return randomGodClass(message, choice)
 
       default: return randomGod(message)
     }
