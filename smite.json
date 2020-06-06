@@ -4,8 +4,8 @@
     { "name": "Support", "icon": "https://gamepedia.cursecdn.com/smite_gamepedia/9/96/NewUI_Role_Support.png?version=1a8fd0ec31faaf442d9b1a4482b64d1e", "description": "The Unsung heroes of the Team, even if your Jungler says you're shit" },
     { "name": "Mid", "icon": "https://gamepedia.cursecdn.com/smite_gamepedia/5/52/NewUI_Role_Mid.png?version=33be56ce820ac73fb6315fc1cffafd17", "description": "Your go to catch phrase is: \"Bro, where's my jungler?!\"" },
     { "name": "Jungle", "icon": "https://gamepedia.cursecdn.com/smite_gamepedia/8/85/NewUI_Role_Jungle.png?version=7c2b48292ebc83110a818f9385183241", "description": "When your team is losing, everyone is shit. When your team is winning, it's because you're a beast" },
-    { "name": "Solo", "icon": "https://gamepedia.cursecdn.com/smite_gamepedia/f/ff/NewUI_Role_Solo.png?version=a17e77a62aa1faf4784ab8bd7c916e3d", "description": "You're oblivious of other lanes, slapping the other solo." },
-    { "name": "Fill", "icon": "https://gamepedia.cursecdn.com/smite_gamepedia/f/f0/NewUI_Role_Fill.png?version=68cfc31680d436f16d99a19305794276", "description": "Fill" }
+    { "name": "Solo", "icon": "https://gamepedia.cursecdn.com/smite_gamepedia/f/ff/NewUI_Role_Solo.png?version=a17e77a62aa1faf4784ab8bd7c916e3d", "description": "You're oblivious of other lanes. Your only job is to slap the other Solo till mid/late game." },
+    { "name": "Fill", "icon": "https://gamepedia.cursecdn.com/smite_gamepedia/f/f0/NewUI_Role_Fill.png?version=68cfc31680d436f16d99a19305794276", "description": "You just want everyone to be happy. That or you've been relegated to the least important role in the squad." }
   ],
   "pantheon": [
     {
@@ -615,7 +615,7 @@
           "name": "Ah Puch",
           "pantheon": "Mayan",
           "title": "Horrific God of Decay",
-          "class": "Assassin",
+          "class": "Mage",
           "icon": "https://i.imgur.com/3qcuLVH.png",
           "icon2": "https://gamepedia.cursecdn.com/smite_gamepedia/8/8b/T_AhPuch_Default_Icon.png?version=5738c199ccc1a12a338646c6e5bbbfbf"
         },
