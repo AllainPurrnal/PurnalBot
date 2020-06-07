@@ -13,21 +13,22 @@ module.exports = {
     const { commands } = message.client;
     const helpCard = {
       color: `#FF00B4`,
-      title: 'The Litter Box',
-      thumbnail: {
-        url: 'https://i.imgur.com/SbvmSmR.jpg'
+      title: 'Commands',
+      author: {
+        name: 'The Litter Box',
+        icon_url: 'https://i.imgur.com/SbvmSmR.jpg',
+        // url: 'https://www.allainbernal.com'
       }
     }
 
     // Send list of commands in a PM
     if(!args.length) {
       helpCard.description = 'Here\'s a list of all my commands:';
-      helpCard.footer = {text: `\nYou can send \`${prefix}help [command name]\` to get info on a specific command!`}
+      helpCard.footer = {text: `\nYou can send \`${prefix}help <command>\` to get info on a specific command!`}
 
       helpCard.fields = commands.map(command => {
         return {name: `${prefix}${command.name}`, value: `${command.description}`, inline: true}
       })
-
 
       return message.author.send({embed: helpCard})
       	.then(() => {

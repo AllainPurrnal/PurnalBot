@@ -117,8 +117,8 @@ const randomRole = (message) => {
 
 module.exports = {
   name: 'rgod',
-  description: 'Chooses a random god for SMITE. Specify a Pantheon or Class for a narrowed random God.',
-	usage: '<pantheon> || <class> || <role>',
+  description: 'Chooses a random god for SMITE. Specify a Pantheon, Class or Role for a narrowed random God.',
+	usage: '<pantheon> / <class> / <role>',
   execute(message, args) {
     let choice;
     if (!args.length) choice = args
