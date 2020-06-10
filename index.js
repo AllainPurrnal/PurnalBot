@@ -1,13 +1,23 @@
 const fs = require('fs');
 const { Client, Collection } = require('discord.js');
+
+const mongoose = require('mongoose')
 require('dotenv').config();
 
-let prefix = process.env.PREFIX;
-let token = process.env.TOKEN;
+const prefix = process.env.PREFIX;
+const token = process.env.TOKEN;
+
+// DB Config
+const db = process.env.MONGODB_URI;
 
 const client = new Client();
 client.commands = new Collection();
 const cooldowns = new Collection();
+
+// Connect to MongoDB
+mongoose.connect(db, {  useNewUrlParser: true, useCreateIndex: true, useUnifiedTopology: true })
+  .then(() => console.log('MongoDB Connected...'))
+  .catch(err => console.log(err))
 
 const commandFiles = fs.readdirSync('./commands').filter(file => file.endsWith('.js'));
 

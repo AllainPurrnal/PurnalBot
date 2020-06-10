@@ -20,6 +20,8 @@
   "homepage": "https://github.com/AllainPurrnal/PurnalBot#readme",
   "dependencies": {
     "discord.js": "^12.2.0",
-    "dotenv": "^8.2.0"
+    "dotenv": "^8.2.0",
+    "mongoose": "^5.9.18",
+    "nodemon": "^2.0.4"
   }
 }
