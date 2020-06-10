@@ -16,8 +16,7 @@ module.exports = {
       title: 'Commands',
       author: {
         name: 'The Litter Box',
-        icon_url: 'https://i.imgur.com/SbvmSmR.jpg',
-        // url: 'https://www.allainbernal.com'
+        icon_url: 'https://i.imgur.com/SbvmSmR.jpg'
       }
     }
 
