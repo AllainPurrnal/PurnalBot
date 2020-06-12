@@ -1,9 +1,9 @@
 const fs = require('fs');
-const { sep } = require('path');
 const { Client, Collection } = require('discord.js');
 require('dotenv').config();
 
 const mongoose = require('mongoose');
+const { dirname } = require('path');
 
 const prefix = process.env.PREFIX;
 const token = process.env.TOKEN;
@@ -21,12 +21,14 @@ mongoose.connect(db, {  useNewUrlParser: true, useCreateIndex: true, useUnifiedT
   .catch(err => console.log(err))
 
 // Iterates over Commands Folder to find the requested command
-const commandFiles = fs.readdirSync('./commands/').filter(file => file.endsWith('.js'));
+fs.readdirSync('./commands/').forEach(dir => {
+  const commandFiles = fs.readdirSync(`./commands/${dir}/`).filter(file => file.endsWith('.js'))
 
-for (const file of commandFiles) {
-  const command = require(`./commands/${file}`);
-  client.commands.set(command.name, command)
-}
+  for (const file of commandFiles) {
+    const command = require(`./commands/${dir}/${file}`);
+    client.commands.set(command.name, command)
+  }
+});
 
 function getUserFromMention(mention) {
   // The id is the first and only match found by the RegEx.

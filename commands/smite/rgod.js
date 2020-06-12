@@ -1,5 +1,5 @@
 const { MessageEmbed } = require('discord.js');
-const { pantheon, role } = require('../smite.json');
+const { pantheon, role } = require('../../smite.json');
 
 let godList = [];
 let num, name, title, icon, pan, gClass;
