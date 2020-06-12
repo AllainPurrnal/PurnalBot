@@ -2,6 +2,10 @@ module.exports = {
   name: 'prune',
   description: 'Deletes the last number of specified messages',
   execute(message, args) {
+    
+    // Permission check: If member does not have the required permission, exit with a message
+    if (!message.member.hasPermission("MANAGE_MESSAGES")) return message.reply(`You have no power here!`)
+
     const amount = parseInt(args[0]) + 1
 
     if (isNaN(amount)) {

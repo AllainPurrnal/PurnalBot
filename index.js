@@ -1,8 +1,9 @@
 const fs = require('fs');
+const { sep } = require('path');
 const { Client, Collection } = require('discord.js');
-
-const mongoose = require('mongoose')
 require('dotenv').config();
+
+const mongoose = require('mongoose');
 
 const prefix = process.env.PREFIX;
 const token = process.env.TOKEN;
@@ -19,7 +20,8 @@ mongoose.connect(db, {  useNewUrlParser: true, useCreateIndex: true, useUnifiedT
   .then(() => console.log('MongoDB Connected...'))
   .catch(err => console.log(err))
 
-const commandFiles = fs.readdirSync('./commands').filter(file => file.endsWith('.js'));
+// Iterates over Commands Folder to find the requested command
+const commandFiles = fs.readdirSync('./commands/').filter(file => file.endsWith('.js'));
 
 for (const file of commandFiles) {
   const command = require(`./commands/${file}`);
