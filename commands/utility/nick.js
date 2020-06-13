@@ -1,6 +1,7 @@
 module.exports = {
   name: 'nick',
   description: 'Changes your nickname',
+  type: 'Utility',
   usage: '[nickname]',
   execute(message, args) {
     const nickname = args.join(' ');

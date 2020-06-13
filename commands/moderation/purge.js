@@ -1,6 +1,6 @@
 module.exports = {
-  name: 'prune',
-  description: 'Deletes the last number of specified messages',
+  name: 'purge',
+  description: 'Deletes the number of specified messages',
   execute(message, args) {
     
     // Permission check: If member does not have the required permission, exit with a message

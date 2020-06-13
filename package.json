@@ -1,5 +1,5 @@
 {
-  "name": "PurnalBot",
+  "name": "purnalbot",
   "version": "1.0.0",
   "description": "A Personalized Discord bot for the Litter Box Discord Server",
   "main": "index.js",
@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/AllainPurrnal/PurnalBot#readme",
   "dependencies": {
+    "concurrently": "^5.2.0",
     "discord.js": "^12.2.0",
     "dotenv": "^8.2.0",
     "mongoose": "^5.9.18",

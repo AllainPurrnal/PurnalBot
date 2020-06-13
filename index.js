@@ -2,23 +2,12 @@ const fs = require('fs');
 const { Client, Collection } = require('discord.js');
 require('dotenv').config();
 
-const mongoose = require('mongoose');
-const { dirname } = require('path');
-
 const prefix = process.env.PREFIX;
 const token = process.env.TOKEN;
 
-// DB Config
-const db = process.env.MONGODB_URI;
-
 const client = new Client();
-client.commands = new Collection();
 const cooldowns = new Collection();
-
-// Connect to MongoDB
-mongoose.connect(db, {  useNewUrlParser: true, useCreateIndex: true, useUnifiedTopology: true })
-  .then(() => console.log('MongoDB Connected...'))
-  .catch(err => console.log(err))
+client.commands = new Collection();
 
 // Iterates over Commands Folder to find the requested command
 fs.readdirSync('./commands/').forEach(dir => {

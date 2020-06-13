@@ -1,11 +1,19 @@
 const mongoose = require('mongoose');
 
 const reportSchema = mongoose.Schema({
-  username: {
+  resolved: {
+    type: Boolean,
+    default: false
+  },
+  guildId: {
     type: String,
     required: true
   },
-  userID: {
+  user: {
+    type: String,
+    required: true
+  },
+  userId: {
     type: String,
     required: true
   },
@@ -17,13 +25,13 @@ const reportSchema = mongoose.Schema({
     type: String,
     required: true
   },
-  reportedByID: {
+  reportedById: {
     type: String,
     required: true
   },
-  time: {
-    type: String,
-    required: true
+  date: {
+    type: Date,
+    default: Date.now
   }
 });
 
