@@ -1,5 +1,8 @@
 const { MessageEmbed } = require('discord.js');
 const { pantheon, role } = require('../../smite.json');
+require('dotenv').config();
+
+let prefix = process.env.PREFIX;
 
 let godList = [];
 let num, name, title, icon, pan, gClass;
@@ -124,7 +127,7 @@ module.exports = {
     if (!args.length) choice = args
     else choice = args[0].toLowerCase();
 
-    // console.log(message.author.username)
+    if (choice == false) return randomGod(message);
 
     switch (choice) {
       case "role":
@@ -154,7 +157,7 @@ module.exports = {
       case "yoruba":
         return randomGodPantheon(message, choice)
 
-      default: return randomGod(message)
+      default: return message.channel.send(`Please select a valid Pantheon, Class, Role or simply use ${prefix}rgod by itself.`)
     }
 
   }
