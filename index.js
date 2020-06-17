@@ -1,5 +1,6 @@
 const fs = require('fs');
 const { Client, Collection } = require('discord.js');
+const { server } = require('./server');
 require('dotenv').config();
 
 const prefix = process.env.PREFIX;
@@ -8,6 +9,9 @@ const token = process.env.TOKEN;
 const client = new Client();
 const cooldowns = new Collection();
 client.commands = new Collection();
+
+const app = server(client);
+const port = process.env.PORT || 3000
 
 // Iterates over Commands Folder to find the requested command
 fs.readdirSync('./commands/').forEach(dir => {
@@ -97,4 +101,5 @@ client.on('message', message => {
   
 });
 
+app.listen(port, () => console.log(`App started on port: ${port}`));
 client.login(token);
