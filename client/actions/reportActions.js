@@ -1,7 +1,7 @@
 const axios = require('axios');
 require('dotenv').config();
 
-const proxy = '/api/reports';
+const proxy = 'http://localhost:5000/api/reports';
 
 exports.getReports = () => {
   return axios.get(`${proxy}`)
@@ -28,9 +28,9 @@ exports.addReports = (report) => {
 
 // Call editReports(id, bool) and pass in an id to edit
 // Example: editReports(`5ee820b68dd2317740d8b39d`, false)
-exports.editReports = (id, bool) => {
+exports.editReports = (id) => {
   return axios.put(`${proxy}/${id}`, {
-    resolved: bool
+    resolved: true
   })
     .then(res => {console.log(res.data)})
     .catch(err => {console.log(err)})

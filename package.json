@@ -10,7 +10,8 @@
     "client": "npm start --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\""
   },
-   "repository": {
+  "proxy": "http://localhost:5000",
+  "repository": {
     "type": "git",
     "url": "git+https://github.com/AllainPurrnal/PurnalBot.git"
   },

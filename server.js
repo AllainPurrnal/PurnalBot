@@ -9,15 +9,18 @@ app.use(express.json());
 
 // MongoDB Config
 const db = process.env.MONGODB_URI;
+// console.log(db)
 
-// Connect to MongoDB
-mongoose.connect(db, { useCreateIndex: true, useUnifiedTopology: true, useNewUrlParser: true, useFindAndModify: false })
-  .then(console.log('MongoDB Connected...'))
-  .catch(err => console.log(err))
+const server = (client) => {
+  // Connect to MongoDB
+  mongoose.connect(db, { useCreateIndex: true, useUnifiedTopology: true, useNewUrlParser: true, useFindAndModify: false })
+    .then(console.log('MongoDB Connected...'))
+    .catch(err => console.log(err))
 
-// Use routes
-app.use('/api/reports', require('./routes/api/reports'));
+  // Use routes
+  app.use('/api/reports', require('./routes/api/reports'));
 
-const port = process.env.PORT || 5000
+  return app;
+}
 
-app.listen(port, () => console.log(`Server started on port: ${port}`));
+exports.server = server;
