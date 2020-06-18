@@ -1,12 +1,13 @@
-const Report = require('../../models/Report');
+const { addReports } = require('../../actions/reportActions');
+
 module.exports = {
   name: 'report',
-  description: 'Reports a user to the moderation team',
+  description: 'Reports a user for violating server guidelines',
 	type: 'Utility',
-  cooldown: 60,
+  // cooldown: 60,
   usage: '[@User] [reason for report]',
   execute(message, args) {
-    const reporter = message.author
+    const reporter = message.author;
     const reportee = message.mentions.members.first().user;
 
     const reason = args.slice(1).join(' ');
@@ -19,20 +20,23 @@ module.exports = {
 
     if (!reason) return message.reply(`Please add a reason why you're reporting this User!`);
 
-    const newReport = new Report({
+    let report = {
       guildId: message.guild.id,
-      user: reportee.username,
+      user: `${reportee.username}#${reportee.discriminator}`,
       userId: reportee.id,
       reason: reason,
-      reportedBy: reporter.username,
+      reportedBy: `${reporter.username}#${reporter.discriminator}`,
       reportedById: reporter.id
-    });
+    }
 
-    newReport.save()
+    addReports(report)
       .then(
         message.reply(`Your report has been saved. Please wait while mods review your report.`)
       )
-      .catch(error => console.log(error));
+      .catch(error => {
+        console.log(error)
+        return message.reply(`There was an error with sending your report, please try again after cooldown.`)
+      })
 
   }
 }

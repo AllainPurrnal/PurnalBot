@@ -1,5 +1,5 @@
 {
-  "name": "purnalbot",
+  "name": "client",
   "version": "1.0.0",
   "description": "A Personalized Discord bot for the Litter Box Discord Server",
   "main": "index.js",
@@ -14,15 +14,9 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/AllainPurrnal/PurnalBot/issues"
-  },
-  "homepage": "https://github.com/AllainPurrnal/PurnalBot#readme",
   "dependencies": {
-    "concurrently": "^5.2.0",
+    "axios": "^0.19.2",
     "discord.js": "^12.2.0",
-    "dotenv": "^8.2.0",
-    "mongoose": "^5.9.18",
-    "nodemon": "^2.0.4"
+    "dotenv": "^8.2.0"
   }
 }
