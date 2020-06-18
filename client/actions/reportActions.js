@@ -1,7 +1,7 @@
 const axios = require('axios');
 require('dotenv').config();
 
-const proxy = 'http://localhost:5000/api/reports';
+const proxy = '/api/reports';
 
 exports.getReports = () => {
   return axios.get(`${proxy}`)
