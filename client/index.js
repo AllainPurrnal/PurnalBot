@@ -1,6 +1,6 @@
 const fs = require('fs');
 const { Client, Collection } = require('discord.js');
-const { server } = require('../server.js');
+const { server } = require('../server');
 require('dotenv').config();
 
 const prefix = process.env.PREFIX;
