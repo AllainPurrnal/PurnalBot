@@ -2,22 +2,22 @@ const express = require('express');
 const mongoose = require('mongoose');
 require('dotenv').config();
 
-const server = client => {
-  const app = express();
+const app = express();
 
-  // Middleware
-  app.use(express.json());
+// Middleware
+app.use(express.json());
 
-  const db = process.env.MONGODB_URI;
+// MongoDB Config
+const db = process.env.MONGODB_URI;
 
-  mongoose.connect(db, { useNewUrlParser:true, useCreateIndex: true, useUnifiedTopology: true })
-    .then(console.log('MongoDB Connected...'))
-    .catch(err => console.log(err))
+// Connect to MongoDB
+mongoose.connect(db, { useCreateIndex: true, useUnifiedTopology: true, useNewUrlParser: true, useFindAndModify: false })
+  .then(console.log('MongoDB Connected...'))
+  .catch(err => console.log(err))
 
-  // Use routes
-  app.use('/api/reports', require('./routes/api/reports'))
+// Use routes
+app.use('/api/reports', require('./routes/api/reports'));
 
-  return app;
-}
+const port = process.env.PORT || 5000
 
-exports.server = server;
+app.listen(port, () => console.log(`Server started on port: ${port}`));

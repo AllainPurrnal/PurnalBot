@@ -26,6 +26,12 @@ exports.addReports = (report) => {
     .catch(err => console.log(err))
 }
 
-exports.findReports = () => {
-  return console.log(`GET`)
+// Call editReports(id, bool) and pass in an id to edit
+// Example: editReports(`5ee820b68dd2317740d8b39d`, false)
+exports.editReports = (id, bool) => {
+  return axios.put(`${proxy}/${id}`, {
+    resolved: bool
+  })
+    .then(res => {console.log(res.data)})
+    .catch(err => {console.log(err)})
 }

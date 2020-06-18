@@ -1,4 +1,3 @@
-const axios = require('axios');
 const { getReports } = require('../../actions/reportActions');
 
 const reportCard = {
@@ -18,8 +17,8 @@ module.exports = {
       .then(res => {
         res.map(report => {
           // console.log(report._id)
-
-          reportCard.title = `Report ID: ${report._id.slice(17)}`
+          reportCard.title = `Report ID: ${report._id}`
+          // reportCard.title = `Report ID: ${report._id.slice(17)}`
           reportCard.fields = [
             {
               name: `User:`,

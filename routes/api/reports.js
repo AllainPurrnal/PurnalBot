@@ -12,7 +12,7 @@ router.get('/', (req, res) => {
   Report.find({resolved: {$eq: false}}) // resolved: {eq: false} finds and returns reports that have not been resolved
     .sort({ date: 1 }) // 1 = Ascending/False, -1 = Descending/True
     .then(reports => res.json(reports))
-})
+});
 
 // @route   POST api/reports
 // @desc    POST a user report
@@ -28,11 +28,18 @@ router.post('/', (req, res) => {
   });
 
   newReport.save().then(report => res.json(report));
-})
+});
 
 // @route   PUT api/reports
-// @desc    PUT Edit a report's resolved value
+// @desc    PUT Resolves a user Report
 // @access  Private only to moderation team
-
+router.put('/:id', (req, res) => {
+  Report.findByIdAndUpdate({_id: req.params.id}, req.body, {new:true})
+    .then(report => {
+      console.log(`Response: `, report)
+      res.send(report)
+    })
+    .catch(err => {console.log(`Error!\n`,err)})
+});
 
 module.exports = router;
