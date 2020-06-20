@@ -1,5 +1,5 @@
 {
-  "name": "client",
+  "name": "purnalbot",
   "version": "1.0.0",
   "description": "A Personalized Discord bot for the Litter Box Discord Server",
   "main": "index.js",

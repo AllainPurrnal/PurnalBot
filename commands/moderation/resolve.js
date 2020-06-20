@@ -7,6 +7,6 @@ module.exports = {
   execute(message, args) {
     let reportId = args[0];
     
-    editReports(reportId)
+    editReports(reportId, message)
   }
 }

@@ -1,4 +1,4 @@
-const { editReports } = require('../../actions/reportActions');
+const { getUser } = require('../../actions/userActions');
 
 module.exports = {
 	name: 'ping',
@@ -7,7 +7,8 @@ module.exports = {
 	cooldown: 5,
 	execute(message) {
 		message.channel.send('Pong')
+
+		let id = `${message.author.id}`
+		getUser(message, id)
 	}
 };
-
-// oink

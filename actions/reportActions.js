@@ -1,7 +1,7 @@
 const axios = require('axios');
 require('dotenv').config();
 
-const proxy = process.env.PROXY;
+const proxy = process.env.PROXY + `/api/reports`;
 
 exports.getReports = () => {
   return axios.get(`${proxy}`)
@@ -28,10 +28,16 @@ exports.addReports = (report) => {
 
 // Call editReports(id, bool) and pass in an id to edit
 // Example: editReports(`5ee820b68dd2317740d8b39d`)
-exports.editReports = (id) => {
+exports.editReports = (id, message) => {
   return axios.put(`${proxy}/${id}`, {
-    resolved: true
+     resolved: true
   })
-    .then(res => {console.log(res.data)})
-    .catch(err => {console.log(err)})
+    .then(res => {
+      if (res.data.resolved) return message.channel.send('Report was already resolved.')
+      message.channel.send('Report has been resolved.')
+    })
+    .catch(err => {
+      console.log(err)
+      message.channel.send(`An error occurred while resolving the report. Check server logs for more info. \n${err}`)
+    })
 }
