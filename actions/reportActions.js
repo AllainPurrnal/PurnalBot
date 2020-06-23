@@ -11,6 +11,7 @@ exports.getReports = () => {
     })
     .catch(err => {
       console.log(err)
+      return res.send(err)
     })
 };
 
@@ -23,21 +24,22 @@ exports.addReports = (report) => {
     reportedBy: report.reportedBy,
     reportedById: report.reportedById
   })
-    .catch(err => console.log(err))
+    .catch(err => {
+      console.log(err)
+      return res.send(err)
+    })
 }
 
 // Call editReports(id, bool) and pass in an id to edit
 // Example: editReports(`5ee820b68dd2317740d8b39d`)
-exports.editReports = (id, message) => {
+exports.editReports = (id) => {
   return axios.put(`${proxy}/${id}`, {
      resolved: true
   })
     .then(res => {
-      if (res.data.resolved) return message.channel.send('Report was already resolved.')
-      message.channel.send('Report has been resolved.')
+      return res.data;
     })
     .catch(err => {
-      console.log(err)
-      message.channel.send(`An error occurred while resolving the report. Check server logs for more info. \n${err}`)
+      return res.send(err)
     })
 }

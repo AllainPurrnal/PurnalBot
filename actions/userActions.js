@@ -3,18 +3,28 @@ require('dotenv').config();
 
 const proxy = process.env.PROXY + `/api/users`;
 
-exports.getUser = (message, id) => {
+// Gets one users' profile from the database
+exports.getUser = (id) => {
   return axios.get(`${proxy}`, {
     params: {
       discordId: id
     }
   })
     .then(res => {
-      console.log(res.data[0])
+      return res.data[0]
     })
     .catch(err => {
-      console.log(err)
-      message.reply(`Can't find you in the database, please ask a Mod for assistance`)
+      return res.error(err)
     })
 };
 
+// Gets all of the guild's users
+exports.getAllUsers = () => {
+  return axios.get(`${proxy}`)
+    .then(res => {
+      return res.data
+    })
+    .catch(err => {
+      return res.error(err)
+    })
+}

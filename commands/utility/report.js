@@ -4,7 +4,7 @@ module.exports = {
   name: 'report',
   description: 'Reports a user for violating server guidelines',
 	type: 'Utility',
-  // cooldown: 60,
+  cooldown: 60,
   usage: '[@User] [reason for report]',
   execute(message, args) {
     const reporter = message.author;
