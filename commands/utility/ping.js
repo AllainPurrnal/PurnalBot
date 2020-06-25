@@ -1,5 +1,3 @@
-const { getUser, getUsers } = require('../../actions/userActions');
-
 module.exports = {
 	name: 'ping',
 	description: 'Ping!',

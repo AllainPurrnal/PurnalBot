@@ -28,3 +28,18 @@ exports.getAllUsers = () => {
       return res.error(err)
     })
 }
+
+exports.editUserProfile = (id, platform, username) => {
+  return axios.put(`${proxy}`, {
+    id: id,
+    name: platform,
+    username: username
+  })
+    .then(res => {
+      console.log(`Axios Res: ${res.data}`)
+      // return res.data
+    })
+    .catch(err => {
+      console.log(`Axios Error: ${err}`)
+    })
+}

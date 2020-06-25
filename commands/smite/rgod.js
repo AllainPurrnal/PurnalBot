@@ -33,7 +33,7 @@ const buildGodCard = (message, godList) => {
 
   const godCard = new MessageEmbed()
     .setColor(color())
-    .setTitle(`${name}`)
+    .setTitle(`**${name}**`)
     .setDescription(`*${title}*`)
     .setThumbnail(`${icon}`)
     .addField('Pantheon', `*${pan}*`)

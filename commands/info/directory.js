@@ -6,7 +6,9 @@ const userCard = {
     name: 'The Litter Box',
     icon_url: 'https://i.imgur.com/SbvmSmR.jpg'
   },
-  footer: `Use !profile [@user] to get more info`
+  footer: {
+    text: 'Use !profile [@user] to get more info'
+  }
 }
 
 module.exports = {
@@ -18,7 +20,7 @@ module.exports = {
     getAllUsers()
       .then(users => {
         userCard.fields = users.map(user => {
-          return { name: `${user.name}`, value: `Platforms: ${user.platform.length}`, inline: true }
+          return { name: `${user.name}`, value: `*Platforms: ${user.platform.length}*`, inline: true }
         })
   
         message.channel.send({ embed: userCard })
