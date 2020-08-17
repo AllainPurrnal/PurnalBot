@@ -29,6 +29,22 @@ exports.getAllUsers = () => {
     })
 }
 
+exports.addUser = (guildId, name, discordId) => {
+  return axios.post(`${proxy}`, {
+    guildId: guildId,
+    name: name,
+    discordId: discordId
+  })
+    .then(res => {
+      console.log(res)
+      return res.data
+    })
+    .catch(err => {
+      console.log(err)
+    })
+}
+
+// Edits a User's Profile
 exports.editUserProfile = (id, platform, username) => {
   return axios.put(`${proxy}`, {
     id: id,

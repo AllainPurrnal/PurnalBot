@@ -597,6 +597,13 @@
           "class": "Assassin",
           "icon": "https://i.imgur.com/iYuL6vR.png",
           "icon2": "https://gamepedia.cursecdn.com/smite_gamepedia/8/8f/T_Susano_Default_Icon.png?version=3e9a672132c8d62c460718f2320ddbb3"
+        },
+        {
+          "name": "Tsukuyomi",
+          "pantheon": "Japanese",
+          "title": "God of the Moon",
+          "class": "Assassin",
+          "icon2": "https://gamepedia.cursecdn.com/smite_gamepedia/b/b8/T_Tsukuyomi_Default_Icon.png?version=473bb196804bfaabe2b3267f06431647"
         }
       ]
     },

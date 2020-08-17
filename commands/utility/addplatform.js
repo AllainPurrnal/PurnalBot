@@ -1,4 +1,4 @@
-const { editUserProfile, getUser } = require("../../actions/userActions");
+const { editUserProfile, getUser } = require('../../actions/userActions');
 
 module.exports = {
   name: 'addplatform',

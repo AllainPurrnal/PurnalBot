@@ -17,6 +17,7 @@ module.exports = {
   aliases: ['phonebook'],
   // cooldown: 60,
   execute(message) {
+    // Need to add a filter to only output members of the guild
     getAllUsers()
       .then(users => {
         userCard.fields = users.map(user => {
