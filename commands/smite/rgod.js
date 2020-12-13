@@ -11,7 +11,7 @@ const buildGodCard = (message, godList) => {
   num = Math.floor(Math.random() * (godList.length))
   name = godList[num].name;
   title = godList[num].title;
-  icon = godList[num].icon2;
+  icon = godList[num].icon;
   pan = godList[num].pantheon
   gClass = godList[num].class
 
