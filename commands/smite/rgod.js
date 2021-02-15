@@ -141,6 +141,7 @@ module.exports = {
         return randomGodClass(message, choice)
           
       case "arthurian":
+      case "babylonian":
       case "celtic":
       case "chinese":
       case "egyptian":

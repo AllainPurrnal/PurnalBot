@@ -1,6 +1,6 @@
 const axios = require('axios');
 
-const cat = `https://aws.random.cat/meow`
+const cat = `https://aws.random.cat/meow`;
 
 module.exports = {
   name: 'cat',

@@ -28,6 +28,18 @@
       ]
     },
     {
+      "name": "Babylonian",
+      "gods": [
+        {
+          "name": "Tiamat",
+          "pantheon": "Babylonian",
+          "title":"Goddess of the Salt Sea",
+          "class": "Mage",
+          "icon": "https://static.wikia.nocookie.net/smite_gamepedia/images/6/61/T_Tiamat_Default_Icon.png/revision/latest?cb=20210206005516"
+        }
+      ]
+    },
+    {
       "name": "Celtic",
       "gods": [
         {
