@@ -1,5 +1,7 @@
 const fs = require('fs');
 const { Client, Collection } = require('discord.js');
+const roleClaim = require('./commands/utility/roleClaim');
+const firstMessage = require('./commands/utility/first-message.js')
 require('dotenv').config();
 
 const prefix = process.env.PREFIX;
@@ -35,16 +37,19 @@ function getUserFromMention(mention) {
 
 client.once('ready', () => {
 	console.log('Ready!');
+
+  roleClaim(client);
 });
 
 client.on('message', message => {
+
 	if (!message.content.startsWith(prefix) || message.author.bot) return;
 
 	const args = message.content.slice(prefix.length).split(/ +/);
 	const commandName = args.shift().toLowerCase();
 
   const command = client.commands.get(commandName) || client.commands.find(cmd => cmd.aliases && cmd.aliases.includes(commandName));
-  
+
   // If a command doesn't exist, exit early
   if (!command) return;
 
@@ -84,9 +89,9 @@ client.on('message', message => {
   timestamps.set(message.author.id, now);
   setTimeout(() => timestamps.delete(message.author.id), cooldownAmount);
 
-  // If there is, .get() the command and call it's .execute() method while passing in your message and argsvariables as method arguments
+  // If there is, .get() the command and call it's .execute() method while passing in your message and args variables as method arguments
   try {
-    command.execute(message, args);
+    command.execute(message, args, client);
   }
   
   // In the event of an error, log it out and return to User
