@@ -13,7 +13,7 @@ module.exports = (client) => {
 
   const reactions = []
 
-  let emojiText = `Gain access to the channels by reacting with the respective icon!\n\n`
+  let emojiText = `Gain access to channels by reacting with the respective icon!\n\n`
 
   for (const key in emojis) {
     const emoji = getEmoji(key)
