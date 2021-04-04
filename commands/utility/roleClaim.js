@@ -9,12 +9,11 @@ module.exports = (client) => {
 
   const emojis = {
     animalcrossing: 'Animal Crossing', destiny: 'Destiny', minecraft: 'Minecraft', smite: 'Smite', valheim: 'Valheim'
-    // destiny: 'Destiny', minecraft: 'Minecraft'
   }
 
   const reactions = []
 
-  let emojiText = `Interested in the following games?\nAdd the reaction to get access to each games channels!\n\n`
+  let emojiText = `Interested in the following games?\nGain access to the channels by reacting with the respective icon!\n\n`
 
   for (const key in emojis) {
     const emoji = getEmoji(key)
