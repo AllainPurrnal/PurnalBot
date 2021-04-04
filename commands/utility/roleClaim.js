@@ -2,7 +2,7 @@ const firstMessage = require('./first-message.js');
 require('dotenv').config();
 
 const channelId = process.env.CHANNEL;
-const userId = process.env.TESTBOT
+const userId = process.env.BOTID;
 
 module.exports = (client) => {
   const getEmoji = (emojiName) => client.emojis.cache.find((emoji) => emoji.name === emojiName)
