@@ -9,6 +9,7 @@ module.exports = (client) => {
 
   const emojis = {
     animalcrossing: 'Animal Crossing', destiny: 'Destiny', minecraft: 'Minecraft', smite: 'Smite', valheim: 'Valheim'
+    // destiny: 'Destiny', minecraft: 'Minecraft'
   }
 
   const reactions = []
