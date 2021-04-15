@@ -8,19 +8,19 @@ module.exports = (client) => {
   const getEmoji = (emojiName) => client.emojis.cache.find((emoji) => emoji.name === emojiName)
 
   const emojis = {
-    animalcrossing: 'Animal Crossing', destiny: 'Destiny', minecraft: 'Minecraft', smite: 'Smite', valheim: 'Valheim'
+    animalcrossing: 'Animal Crossing', destiny: 'Destiny', minecraft: 'Minecraft', smite: 'Smite', valheim: 'Valheim', valorant: 'Valorant'
   }
 
   const reactions = []
 
-  let emojiText = `Gain access to channels by reacting with the respective icon!\n\n`
+  let emojiText = `*How To: View a Category*\n* If you're interested in the following games/categories, just react with the corresponding icon to gain access to the channels!\n* Remove the reaction if you're no longer interested.\n------------------------------\n`
 
   for (const key in emojis) {
     const emoji = getEmoji(key)
     reactions.push(emoji)
 
     const role = emojis[key]
-    emojiText += `${emoji} ${role} \n`
+    emojiText += `${emoji} | ${role} \n`
   }
 
   firstMessage(client, channelId, emojiText, reactions)
