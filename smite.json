@@ -24,6 +24,13 @@
           "title":"The Master Wizard",
           "class": "Mage",
           "icon": "https://gamepedia.cursecdn.com/smite_gamepedia/0/0b/T_Merlin_Default_Icon.png?version=bb26df876aaec916aea95b2e09145f00"
+        },
+        {
+          "name": "Morgan Le Fay ",
+          "pantheon": "Arthurian",
+          "title":"The Dark Enchantress",
+          "class": "Mage",
+          "icon": "https://static.wikia.nocookie.net/smite_gamepedia/images/2/2c/T_MorganLeFay_Default_Icon.png/revision/latest?cb=20210529122823&format=original"
         }
       ]
     },
@@ -347,7 +354,7 @@
           "pantheon": "Greek",
           "title": "Goddess of Wisdom",
           "class": "Guardian",
-          "icon": "https://gamepedia.cursecdn.com/smite_gamepedia/8/80/T_Athena_Default_Icon.png?version=5758d8633d4b6a8cbc0de7bd977ee15d"
+          "icon": "https://static.wikia.nocookie.net/smite_gamepedia/images/8/80/T_Athena_Default_Icon.png/revision/latest?cb=20210518144418&format=original"
         },
         {
           "name": "Cerberus",
