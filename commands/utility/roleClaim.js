@@ -8,7 +8,8 @@ module.exports = (client) => {
   const getEmoji = (emojiName) => client.emojis.cache.find((emoji) => emoji.name === emojiName)
 
   const emojis = {
-    animalcrossing: 'Animal Crossing', destiny: 'Destiny', minecraft: 'Minecraft', smite: 'Smite', valheim: 'Valheim', valorant: 'Valorant'
+    // animalcrossing: 'Animal Crossing', destiny: 'Destiny', minecraft: 'Minecraft', smite: 'Smite', valheim: 'Valheim', valorant: 'Valorant'
+    destiny: 'Destiny', minecraft: 'Minecraft'
   }
 
   const reactions = []
