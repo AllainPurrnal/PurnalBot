@@ -71,6 +71,13 @@
           "icon": "https://gamepedia.cursecdn.com/smite_gamepedia/5/5f/T_Cernunnos_Default_Icon.png?version=b5d3fcc78f91f7d973d4da343c886cd0"
         },
         {
+          "name": "Cliodhna",
+          "pantheon": "Celtic",
+          "title": "Queen of the Banshees",
+          "class": "Assassin",
+          "icon": "https://static.wikia.nocookie.net/smite_gamepedia/images/d/d4/T_Cliodhna_Default_Icon.png/revision/latest?cb=20211019210353"
+        },
+        {
           "name": "Cu Chulainn",
           "pantheon": "Celtic",
           "title": "The Hound of Ulster",
