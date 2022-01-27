@@ -364,6 +364,13 @@
           "icon": "https://static.wikia.nocookie.net/smite_gamepedia/images/8/80/T_Athena_Default_Icon.png/revision/latest?cb=20210518144418&format=original"
         },
         {
+          "name": "Atlas",
+          "pantheon": "Greek",
+          "title": "Titan of the Cosmos",
+          "class": "Guardian",
+          "icon": "https://static.wikia.nocookie.net/smite_gamepedia/images/1/15/T_Atlas_Default_Icon.png/revision/latest/scale-to-width-down/128?cb=20211128200121"
+        },
+        {
           "name": "Cerberus",
           "pantheon": "Greek",
           "title": "Warden of the Underworld",
