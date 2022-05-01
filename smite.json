@@ -188,6 +188,13 @@
           "icon": "https://gamepedia.cursecdn.com/smite_gamepedia/1/1a/T_XingTian_Default_Icon.png?version=c7276251158ee80e5927cde0f6cf8782"
         },
         {
+          "name": "Yu Huang",
+          "pantheon": "Chinese",
+          "title": "The Jade Emperor",
+          "class": "Mage",
+          "icon": "https://static.wikia.nocookie.net/smite_gamepedia/images/7/79/T_YuHuang_Default_Icon.png/revision/latest?cb=20220416031228"
+        },
+        {
           "name": "Zhong Kui",
           "pantheon": "Chinese",
           "title": "The Demon Queller",
