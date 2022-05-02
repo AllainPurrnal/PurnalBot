@@ -1,4 +1,4 @@
-# PurnalBot - *In Active Development*
+# PurnalBot
 A Personalized Discord bot for the Litter Box Discord Server.
 PurnalBot was built from the ground up to cover current and future needs of my personal Discord Server. It's main features are game specific commands and user privacy. Commands are never logged by the bot for access later.
 
